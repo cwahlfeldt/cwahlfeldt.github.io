@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./materialize-sass/sass/materialize.css" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+
+    .btn {
+      display: block;
+    }
+
+    .my-image {
+      width: 120vh !important;
+      margin-left: -210px;
+    }
+
+    footer p {
+      padding-bottom: 50px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="col s6">
+      <div class="card choice-one">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator my-image" src="assets/wedding.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Click Me!<i class="mdi-navigation-more-vert right"></i></span>
+          </p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">I &hearts; Rachel!<i class="mdi-navigation-close right"></i></span>
+          <p>I love you soooo much Rachel and I want to be with you forever. Your the best thing thats ever happend to me and I want you to be the happiest person in the world!</p>
+          <br>
+          <div class="container">
+            <h5>From My Heart</h5>
+            <blockquote>
+              A million stars up in the sky
+              <br> one shines brighter I can't deny
+              <br>
+              <br> A love so precious a love so true
+              <br> a love that comes from me to you
+              <br>
+              <br> The angels sing when you are near
+              <br> within your arms I have no fear
+              <br>
+              <br> You always know just what to say
+              <br> just talking to you makes my day
+              <br>
+              <br> I love you honey with all of my heart
+              <br> together forever and never to part.
+              <br>
+          </div>
+          <br>
+          <a href="#gifts" class="waves-effect waves-light btn">Choose your gift!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="gifts">
+    <div class="container">
+      <div class="row">
+
+        <!-- choice-one -->
+        <div class="col m6 s12">
+          <div class="card choice-one">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/trek_allant.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Choice One<i class="mdi-navigation-more-vert right"></i></span>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Trek Allant<i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li>Sleek, light Alpha Aluminum frame with color-matched fenders</li>
+                <br>
+                <li>Classic styling is great for commuting or cruising</li>
+                <br>
+                <li>DuoTrap S compatible: track your fitness, map your miles</li>
+                <br>
+                <li>Flat-resistant, weather-worthy tires keep you rolling</li>
+                <br>
+              </ul>
+              <br>
+            </div>
+          </div>
+        </div>
+
+        <!-- choice-two -->
+        <div class="col m6 s12">
+          <div class="card choice-two">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/trek_townie.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Choice Two<i class="mdi-navigation-more-vert right"></i></span>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Trek Pure<i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li>Feet First geometry is easy and confidence inspiring</li>
+                <br>
+                <li>Relaxed riding position, comfy saddle, wide tires</li>
+                <br>
+                <li>Sleek, super-light aluminum frame looks and rides great</li>
+                <br>
+                <li>Simple 7-speed, one-grip shifting lets you cruise in comfort</li>
+                <br>
+              </ul>
+              <br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--end of '.row'-->
+    </div>
+    <!-- end of '.container'-->
+  </div>
+  <!-- end of '#gifts' -->
+
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+        <p>Of course if you want a different bike let me know!</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- import scripts always put jquery first -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="./materialize-sass/js/bin/materialize.min.js"></script>
+  <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 600);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+/* this is my stylesheet to change basic layout stuff*/
+
+html {
+/*  height: 100vh;*/
+  font-size: .9em;
+}
+body {
+  height: 100vh;
+  overflow: auto;
+  overflow-x: hidden;
+  font-family: 'Open Sans', serif;
+  background-color: #f8f8f8;
+}
+
+#about,
+#code,
+#art {
+  min-height: 100vh;
+}
+#contact {
+  min-height: 100vh;
+}
+.special,
+.special .jumbotron {
+  min-height: 100vh;
+}
+.special-contact,
+.special-contact .jumbotron {
+  min-height: 95vh;
+}
+.jumbotron {
+  margin-bottom: 0px !important;
+  border: none;
+}
+.one {
+  background-color: #DB3B2B !important;
+  color: #EFF6FD;
+}
+.two {
+  background-color: #B5D4A0 !important;
+}
+.three {
+  background-color: #0085A3 !important;
+  color: #EFF6FD;
+}
+.four {
+  background-color: #EFF6FD !important;
+}
+.page-header {
+  border-bottom: none;
+}
+.col-bro {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  max-width: 230px;
+  box-shadow: 1px 1px 1px #344;
+}
+#about .container,
+#code .container,
+#art .container {
+  margin-bottom: 40px;
+}
+.modal-image {
+  padding: 20px;
+}
+@media only screen and (min-width: 1224px) {
+  .col-bro {
+    min-width: 280px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+}
+canvas {
+	display: block;
+}
+.navbar-brand {
+  font-family: 'Open Sans', serif;
+}
+.panel-footer {
+  background-color: #f8f8f8; 
+}

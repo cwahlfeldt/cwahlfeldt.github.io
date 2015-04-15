@@ -1,0 +1,41 @@
+span.special-text {
+    font-family: 'Lobster', cursive;
+}
+a.navbar-brand {
+    font-size: 1.6em;
+    color: #488D88 !important;
+}
+nav.navbar {
+    margin-bottom: 0;
+}
+img.logo {
+    max-width: 16px;
+    margin-right: 8px;
+}
+@media screen and (max-width: 768px) {
+    div.item {
+        min-width: 200%;
+        margin-left: -400px;
+    }
+}
+@media screen and (max-width: 480px) {
+    div.item {
+        min-width: 300%;
+        margin-left: -400px;
+    }
+    div.panel-body img {
+        width: 70%;
+    }
+}
+div.panel-body img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+div.carousel-caption h3 {
+    margin-top: 30px;
+}
+.carousel-caption {
+    padding-bottom: 0;
+    opacity: 0.8;
+}

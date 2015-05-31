@@ -826,7 +826,8 @@ img {
 
 .site-wrap {
   min-height: 100%;
-  margin-bottom: -120px; }
+  margin-bottom: -120px;
+  background-color: white; }
 
 .site-wrap:after {
   content: "";
@@ -837,6 +838,7 @@ img {
 
 body {
   font-size: 1.5rem;
+  background-color: #333;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
@@ -847,6 +849,9 @@ body {
 
 .gist .lines {
   width: 100%; }
+
+.site-header {
+  border-top: solid #333 5px; }
 
 .site-header a {
   color: #333;
@@ -1258,9 +1263,9 @@ Copyright (c) 2014 Daniel Eden
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-20px) translate3d(0, 0, 0);
-    -ms-transform: translateY(-20px) translate3d(0, 0, 0);
-    transform: translateY(-20px) translate3d(0, 0, 0); }
+    -webkit-transform: translateY(20px) translate3d(0, 0, 0);
+    -ms-transform: translateY(20px) translate3d(0, 0, 0);
+    transform: translateY(20px) translate3d(0, 0, 0); }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0) translate3d(0, 0, 0);

@@ -7,3 +7,5 @@ categories: GIFs
 ---
 
 GIFs are totally the future and coolest things ever. I can add simple gifs as headers to all my posts or jus add them inline.
+
+![hahaha no](http://i.giphy.com/SdYnnxQ30OahG.gif)

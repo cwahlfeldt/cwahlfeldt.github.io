@@ -1,219 +1,32 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
+<div class="home">
 
-    <title>Chris Wahlfeldt</title>
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel=stylesheet type=text/css>
-
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-    <script>
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 500);
-                        return false;
-                    }
-                }
-            });
-        });
-
-        jQuery(function($) {
-            $('.navbar-default .navbar-nav > li > a').click(function() {
-                $('.navbar-default .navbar-collapse').collapse('hide')
-            });
-        });
-    </script>
-</head>
-
-<body>
-
-    <div id="top">
-        <!--main nav bar setup using bootstrap-->
-
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#top">Chris Wahlfeldt</a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about">About</a>
-                        </li>
-                        <li><a href="#code">Projects</a>
-                        </li>
-                        <li><a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-        <!--end of nav-->
-
-        <!--3d script-->
-        <script src="./js/threed.js"></script>
-        <!--end of 3d script-->
-
-    </div>
-
-    <div id="about">
-        <div class="jumbotron special one">
-            <div id="wrapper">
-                <div class="container">
-                    <div id="content">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <img style="margin-right: 20px" class="pull-left img-rounded" src="images/aboutlogo.png" alt=""></img>
-                        <p>My name is Chris Wahlfeldt. I’m a 3D artist and aspiring programmer based out of Champaign-Urbana Illinois. I’m passionate about all things computers but I tend to sway towards game/web Development.</p>
-
-                        <p>Other than my love computers, I am a spirited musician that loves playing shows. Before going to school and earning an associates degree in Digital Media, I was in multiple bands that toured across the country. Playing music and
-                            touring has given me a better understanding of the world and the people inhabiting it. It also introduced me to some of the best people I know and love.</p>
-
-                        <p>I am currently working as a server at Blackdog Smoke and ale house for which I also created the website. I’m constantly keeping my self busy with side projects as well as taking courses for a computer science degree.</p>
-                        <a type="button" href="#" class="btn btn-lg btn-success">My Resume</a>
-                    </div>
-                </div>
-            </div>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3>
+        {% if post.image %}
+        <div class="crop">
+            <img src="{{ post.image }}" alt="">
         </div>
-    </div>
+        {% endif %}
+        </a>
 
-    <div id="code">
-        <div class="jumbotron special two">
-            <div class="container">
-                <h1></h1>
-                <div class="row-fluid text-center">
-                    <div class="col-sm-4">
-                        <a href="#" type="button" data-toggle="modal" data-target="#myModal1">
-                            <img class="col-bro img-rounded" src="images/code-holder1.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#" type="button" data-toggle="modal" data-target="#myModal1">
-                            <img class="col-bro img-rounded" src="images/code-holder2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#" type="button" data-toggle="modal" data-target="#myModal1">
-                            <img class="col-bro img-rounded" src="images/code-holder3.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="row-fluid text-center">
-                    <div class="col-sm-4">
-                        <a href="#" type="button" data-toggle="modal" data-target="#myModal1">
-                            <img class="col-bro img-rounded" src="images/code-holder4.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#" type="button" data-toggle="modal" data-target="#myModal1">
-                            <img class="col-bro img-rounded" src="images/code-holder5.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#" type="button" data-toggle="modal" data-target="#myModal1">
-                            <img class="col-bro img-rounded" src="images/code-holder6.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p class="post-summary">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                        </button>
-                        <h4 class="modal-title" id="myModalLabel">Project 1</h4>
-                    </div>
-                    <div class="modal-body">
-
-                        <img class="modal-image img-responsive pull-right img-rounded" src="images/code-holder1.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga ab minima laudantium architecto fugit ullam veritatis perspiciatis recusandae nisi similique illum deserunt impedit. Quod doloremque libero est, incidunt suscipit!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga ab minima laudantium architecto fugit ullam veritatis perspiciatis recusandae nisi similique illum deserunt impedit. Quod doloremque libero est, incidunt suscipit!Lorem
-                            ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga ab minima laudantium architecto fugit ullam veritatis perspiciatis recusandae nisi similique illum deserunt impedit. Quod doloremque libero est, incidunt suscipit!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga ab minima laudantium architecto fugit ullam veritatis perspiciatis recusandae nisi similique illum deserunt impedit. Quod doloremque libero est, incidunt suscipit!</p>
-                        <img class="modal-image img-responsive pull-left img-rounded" src="images/code-holder2.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga ab minima laudantium architecto fugit ullam veritatis perspiciatis recusandae nisi similique illum deserunt impedit. Quod doloremque libero est, incidunt suscipit!Lorem
-                            ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga ab minima laudantium architecto fugit ullam veritatis perspiciatis recusandae nisi similique illum deserunt impedit. Quod doloremque libero est, incidunt suscipit!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga ab minima laudantium architecto fugit ullam veritatis perspiciatis recusandae nisi similique illum deserunt impedit. Quod doloremque libero est, incidunt suscipit!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis veniam consectetur tenetur ullam recusandae eligendi, ipsam nesciunt atque delectus modi aut ipsa, deserunt unde, asperiores sequi maxime tempora! Et, architecto.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit mollitia doloribus suscipit beatae adipisci ad, minima quos quaerat aliquam, commodi ipsum, impedit cum assumenda voluptatum provident ab. Ipsum mollitia, quos. Lorem
-                            ipsum dolor sit amet, consectetur adipisicing elit. Inventore magnam doloribus non suscipit impedit fuga eos assumenda odio dolor, sunt qui neque quisquam laborum totam cupiditate ipsum quis rem accusamus!</p>
-                    </div>
-                    <div class="modal-footer" style="clear: both; ">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end modal-->
-    </div>
-
-    <div id="contact">
-        <div class="jumbotron special-contact four">
-            <div class="container">
-                <br>
-                <br>
-                <form id="myform" class="form-horizontal" role="form" method="post" action="index.php">
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="name" value="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="email" value="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <textarea class="form-control" rows="18" name="message" placeholder="message"></textarea>
-                        </div>
-                    </div>
-                    <div role="group" class="btn-group btn-group-justified">
-                        <a href="javascript:{}" onclick="document.getElementById('myform').submit(); return false;" style="font-size:14px;" type="submit" value="send" class="btn btn-primary btn-lg">send</a>
-                        <a href="javascript:{}" onclick="document.getElementById('myform').reset(); return false;" style="font-size:14px;" type="reset" value="Clear" class="btn btn-danger btn-lg">clear</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="panel-footer panel-inverse">
-            <div class="container">
-                <p>&copy; kastr | Chris Wahlfeldt | All Rights Reserved</p>
-            </div>
-        </div>
-    </div>
-</body>
-
-</html>
+  {% include pagination.html %}
+</div>

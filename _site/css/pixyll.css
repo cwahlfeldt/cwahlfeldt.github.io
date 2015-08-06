@@ -803,10 +803,14 @@ html, body {
   height: 100%; }
 
 img {
-  width: 100%;
-  max-width: 100%;
+  max-width: 768px;
   border-radius: 10px;
-  margin: 8px 0px; }
+  margin: 8px 0px;
+  border: solid 2px #DADADA;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 100%; }
 
 .post-summary {
   margin-top: 20px; }
@@ -1274,6 +1278,19 @@ Copyright (c) 2014 Daniel Eden
 .fade-in-down {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown; }
+
+.footer a {
+  color: white !important; }
+
+.shrink {
+  width: 37% !important;
+  margin: 5px; }
+
+.float-right {
+  float: right; }
+
+.page-image {
+  margin: 10px 0px; }
 
 /* Solarized Dark
 

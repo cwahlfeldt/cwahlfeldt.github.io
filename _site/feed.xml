@@ -8,9 +8,11 @@
     
       <item>
         <title>Welcome</title>
-        <description>&lt;p&gt;Welcome! This is my new and improved site. I am slowly but surely getting my portfolio together and writing about things. I am using jekyll as a base to produce my static website. So far so good. Im currently working on a few side projects so expect them to be here. I will also be posting dorky codeing posts and tutorials so that I can hopefully spread some knowledge into the internet!&lt;/p&gt;
+        <description>&lt;p&gt;Welcome! This is my new and improved site. I am slowly but surely getting my portfolio together and writing about things.
+I am using jekyll as a base to produce my static website. So far so good. Im currently working on a few side projects so expect them to be here. 
+I will also be posting dorky codeing posts and tutorials so that I can hopefully spread some knowledge into the internet!&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 May 2015 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 31 May 2015 00:00:00 -0500</pubDate>
         <link>//general/2015/05/31/welcome/</link>
         <guid isPermaLink="true">//general/2015/05/31/welcome/</guid>
       </item>

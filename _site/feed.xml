@@ -7,6 +7,15 @@
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Dismantle Tour</title>
+        <description>&lt;p&gt;Tour flyer for We Must Dismantle All This &amp;amp; Street Feet&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Oct 2015 00:00:00 -0500</pubDate>
+        <link>//art/2015/10/31/dismantle-tour/</link>
+        <guid isPermaLink="true">//art/2015/10/31/dismantle-tour/</guid>
+      </item>
+    
+      <item>
         <title>Welcome</title>
         <description>&lt;p&gt;Welcome! This is my new and improved site. I am slowly but surely getting my portfolio together and writing about things.
 I am using jekyll as a base to produce my static website. So far so good. Im currently working on a few side projects so expect them to be here. 

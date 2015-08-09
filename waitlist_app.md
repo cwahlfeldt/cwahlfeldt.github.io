@@ -5,4 +5,4 @@ permalink: /waitlist-app/
 ---
 <a href="https://waitlist.herokuapp.com" target="_blank">https://waitlist.herokuapp.com</a>
 
-<img src="../images/waitlist_1.jpg" alt="">
+<img src="../images/waitlist_3.jpg" alt="">

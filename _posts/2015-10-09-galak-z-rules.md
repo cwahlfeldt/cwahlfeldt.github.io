@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Galak-Z strategy rules all!
+title: Galak-Z strategy rules!
 summary: I have a basic strategy. Just use the mech and destroy.
 image: ../../../../../images/galak-z-rules.jpg
 categories: games

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Galak-Z strategy rules!
-summary: This basic strategy can wreck and help get you through the tough parts of thus hard and awesome game.
+summary: This basic strategy can wreck and help get you through the tough parts of this hard and awesome game.
 image: ../../../../../images/galak-z-rules.jpg
 categories: games
 permalink: galak-z-rules

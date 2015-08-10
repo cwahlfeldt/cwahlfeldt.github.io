@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Galak-Z strategy rules!
+title: "Galak-Z Rules!"
 summary: This basic strategy can wreck and help get you through the tough parts of this hard and awesome game.
-image: ../../../../../images/galak-z-rules.jpg
+image: "../../../../../images/galak-z-rules.jpg"
 categories: games
-permalink: galak-z-rules
+permalink: "galak-z-rules"
+published: true
 ---
+
 
 Ive come across a simple strategy for surviving and profiting in
 <a href="http://17-bit.com/galakz" target="_blank">Galak-Z: The Dimensional</a> 

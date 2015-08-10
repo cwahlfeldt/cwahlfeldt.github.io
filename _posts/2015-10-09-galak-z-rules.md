@@ -19,4 +19,4 @@ Check this out.
 
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/qqABuWfqnD4" frameborder="0" allowfullscreen></iframe>
 
-Remember though throw your sheild up while you charge your sword and repeat.
+Remember though throw your shield up while you charge your sword and repeat.

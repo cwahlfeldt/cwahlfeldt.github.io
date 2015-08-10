@@ -18,3 +18,8 @@ My current favorite web related "things" are:
 - Making games with [Phaser](https://phaser.io/)
 - Learning and working with [Vim](http://www.vim.org/)
 - Using plain ole HTML, CSS, and JavaScript (I think this will always be my favorite web related thing)
+
+<br>
+<p class="center">Check out the social links in the footer!<D-r></p>
+
+<p class="center">&#9660</p>

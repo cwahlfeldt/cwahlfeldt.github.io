@@ -7,6 +7,35 @@
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>A New Stack</title>
+        <description>&lt;p&gt;With this article I set out to create a full stack javascript enviroment using tools and frameworks that are independant of eachother. My goal is to have a complete
+React/React Native frontend, powered by websockets and an interchangable nodejs backend. Sounds fun right!&lt;/p&gt;
+
+&lt;h3 id=&quot;frontend&quot;&gt;frontend:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;Gulp&lt;/li&gt;
+&lt;li&gt;Stylus&lt;/li&gt;
+&lt;li&gt;bootstrap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;backend&quot;&gt;backend:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;redis&lt;/li&gt;
+&lt;li&gt;nodejs, express or koa?&lt;/li&gt;
+&lt;li&gt;socket.io&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With React, especially React Native, we can create full blown database driven IOS apps (and soon android) in Javascript.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 -0500</pubDate>
+        <link>//a-new-stack/</link>
+        <guid isPermaLink="true">//a-new-stack/</guid>
+      </item>
+    
+      <item>
         <title>Galak-Z Rules!</title>
         <description>&lt;p&gt;Ive come across a simple strategy for surviving and profiting in
 &lt;a href=&quot;http://17-bit.com/galakz&quot; target=&quot;_blank&quot;&gt;Galak-Z: The Dimensional&lt;/a&gt; 
@@ -22,7 +51,7 @@ and prevail! Easy as dat.&lt;/p&gt;
 
 &lt;p&gt;Remember though throw your shield up while you charge your sword and repeat.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 09 Oct 2015 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 09 Aug 2015 00:00:00 -0500</pubDate>
         <link>//galak-z-rules</link>
         <guid isPermaLink="true">//galak-z-rules</guid>
       </item>
@@ -31,9 +60,9 @@ and prevail! Easy as dat.&lt;/p&gt;
         <title>Dismantle Tour</title>
         <description>&lt;p&gt;Tour flyer for We Must Dismantle All This &amp;amp; Street Feet.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 09 Oct 2015 00:00:00 -0500</pubDate>
-        <link>//art/2015/10/09/dismantle-tour/</link>
-        <guid isPermaLink="true">//art/2015/10/09/dismantle-tour/</guid>
+        <pubDate>Sun, 09 Aug 2015 00:00:00 -0500</pubDate>
+        <link>//art/2015/08/09/dismantle-tour/</link>
+        <guid isPermaLink="true">//art/2015/08/09/dismantle-tour/</guid>
       </item>
     
       <item>

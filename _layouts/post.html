@@ -19,9 +19,11 @@ layout: default
 </div>
 
 {% if page.image %}
-<div class="page-image">
-  <img class="page-image" src="{{page.image}}" alt="">
-</div>
+    {% if page.showImage %}
+    <div class="page-image">
+        <img class="page-image" src="{{page.image}}" alt="">
+    </div>
+    {% endif %}
 {% endif %}
 
 <article class="post-content">

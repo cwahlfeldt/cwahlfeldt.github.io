@@ -3,6 +3,7 @@ layout: post
 title: "Galak-Z Rules!"
 summary: This basic strategy can wreck and help get you through the tough parts of this hard and awesome game.
 image: "../../../../../images/galak-z-rules.jpg"
+showImage: true
 categories: games
 permalink: "galak-z-rules"
 published: true

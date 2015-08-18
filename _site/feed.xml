@@ -28,7 +28,8 @@ React/React Native frontend, powered by websockets and an interchangable nodejs 
 &lt;li&gt;socket.io&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;With React, especially React Native, we can create full blown database driven IOS apps (and soon android) in Javascript.&lt;/p&gt;
+&lt;p&gt;With React, especially React Native, we can create full blown database driven IOS apps (and soon android) in Javascript. Thats one of the main goals of this project.
+I alos would like to figure out if first using react, how hard it is to make the switch to native use.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Aug 2015 00:00:00 -0500</pubDate>
         <link>//a-new-stack/</link>

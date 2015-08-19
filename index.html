@@ -6,6 +6,7 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
+    {% if post.publish %}
       <div class="post">
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
 
@@ -25,6 +26,7 @@ layout: default
           {% endif %}
         </p>
       </div>
+    {% endif %}
     {% endfor %}
   </div>
 

@@ -5,6 +5,7 @@ summary: This basic strategy can wreck and help get you through the tough parts 
 image: "../../../../../images/galak-z-rules.jpg"
 showImage: true
 categories: games
+publish: true
 permalink: "galak-z-rules"
 published: true
 ---

@@ -7,7 +7,7 @@
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>A New Stack</title>
+        <title>Going Full Stack!</title>
         <description>&lt;p&gt;With this article I set out to create a full stack javascript enviroment using tools and frameworks that are independant of eachother. My goal is to have a complete
 React/React Native frontend, powered by websockets and an interchangable nodejs backend. Sounds fun right!&lt;/p&gt;
 

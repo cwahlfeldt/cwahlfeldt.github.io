@@ -1170,10 +1170,10 @@ h6,
     float: center; }
 
   .site-header .site-nav {
-    width: 100%;
-    float: left;
-    text-align: center;
-    margin-top: 0.666em;
+    /* width: 100%; */
+    /* float: left; */
+    /* text-align: center; */
+    /* margin-top: 0.666em; */
     margin-bottom: 1.333em; }
 
   .social-icons .left, .social-icons .right {

@@ -22,7 +22,7 @@ disqus_shortname: waffleiron
 show_social_icons: true # in header
 github_username: cwahlfeldt
 stackoverflow_id: 3534217
-twitter_username:
+twitter_username: ChrisWahlfeldt
 google_plus_id:
 linkedin_username: christopher-wahlfeldt
 angellist_username: cwahlfeldt
@@ -49,6 +49,6 @@ markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     5
+paginate:     10
 sass:
   compressed: true

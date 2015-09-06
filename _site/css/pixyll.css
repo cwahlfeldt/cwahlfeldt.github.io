@@ -1131,11 +1131,23 @@ h6,
     border-bottom: none;
     margin-bottom: .333em;
     padding-bottom: 0; } }
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 768px) {
+  .cube.left {
+    margin-top: -50px;
+    margin-left: -79px;
+    position: fixed;
+    display: none; } }
+@media screen and (max-width: 767px) {
   blockquote {
     margin-left: 1rem;
     margin-right: 0;
     padding: 0.5em; }
+
+  .cube.left {
+    display: none;
+    margin-top: -50px;
+    margin-left: -142px;
+    position: fixed; }
 
   .crop {
     max-height: 200px;
@@ -1170,10 +1182,10 @@ h6,
     float: center; }
 
   .site-header .site-nav {
-    /* width: 100%; */
+    width: 100%;
     /* float: left; */
-    /* text-align: center; */
-    /* margin-top: 0.666em; */
+    text-align: center;
+    margin-top: 0.666em;
     margin-bottom: 1.333em; }
 
   .social-icons .left, .social-icons .right {
@@ -1292,6 +1304,11 @@ Copyright (c) 2014 Daniel Eden
 
 .page-image {
   margin: 25px 0px; }
+
+.cube.left {
+  margin-top: -50px;
+  margin-left: -142px;
+  position: fixed; }
 
 /* Solarized Dark
 

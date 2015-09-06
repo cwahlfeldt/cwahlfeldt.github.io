@@ -7,6 +7,15 @@
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>3D Art Dump</title>
+        <description>&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/7ue4U46brsc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 00:00:00 -0500</pubDate>
+        <link>//3d-art-dump/</link>
+        <guid isPermaLink="true">//3d-art-dump/</guid>
+      </item>
+    
+      <item>
         <title>three.js Test</title>
         <description>&lt;iframe src=&quot;../../../../../threejs_test.html&quot; frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;500px&quot;&gt;&lt;/iframe&gt;
 </description>

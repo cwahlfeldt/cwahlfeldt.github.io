@@ -856,11 +856,12 @@ body {
   width: 100%; }
 
 .site-header {
-  border-top: solid #24EFD2 8px; }
+  border-top: solid #8098FD 8px; }
 
 .site-header a {
   color: #333;
-  font-weight: 300; }
+  font-weight: 300;
+  z-index: 100; }
 
 .site-header nav a {
   font-size: 1rem;
@@ -1293,7 +1294,7 @@ Copyright (c) 2014 Daniel Eden
   animation-name: fadeInDown; }
 
 .footer a {
-  color: white !important; }
+  color: #8098FD !important; }
 
 .shrink {
   width: 37% !important;
@@ -1308,7 +1309,7 @@ Copyright (c) 2014 Daniel Eden
 .cube.left {
   margin-top: -50px;
   margin-left: -142px;
-  position: fixed; }
+  position: absolute; }
 
 /* Solarized Dark
 

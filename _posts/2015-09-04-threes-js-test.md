@@ -1,7 +1,7 @@
 ---
 layout: post
 title: three.js Test
-publish: true
+publish: false
 summary: Testing a possible cool ass little header logo with three.js!
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:Queue
+title: Queue
 permalink: /queue/
 ---
 <a href="https://waffles.meteor.com" target="_blank">https://waffles.meteor.com</a>

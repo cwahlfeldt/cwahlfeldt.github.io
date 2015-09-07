@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Waitlist App
+title:Queue
 permalink: /queue/
 ---
 <a href="https://waffles.meteor.com" target="_blank">https://waffles.meteor.com</a>

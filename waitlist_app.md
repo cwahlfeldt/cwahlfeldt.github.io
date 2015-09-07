@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Waitlist App
-permalink: /waitlist-app/
+permalink: /queue/
 ---
-<a href="https://waitlist.herokuapp.com" target="_blank">https://waitlist.herokuapp.com</a>
+<a href="https://waffles.meteor.com" target="_blank">https://waffles.meteor.com</a>
 
 <img src="../images/waitlist_3.jpg" alt="">

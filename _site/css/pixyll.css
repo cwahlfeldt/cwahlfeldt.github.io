@@ -1320,6 +1320,14 @@ Copyright (c) 2014 Daniel Eden
 header:after {
     margin-bottom: 10px;
 }*/
+/*
+// overlay conent
+*/
+.overlay:hover {
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1; }
+
 /* Solarized Dark
 
 For use with Jekyll and Pygments

@@ -1328,6 +1328,10 @@ header:after {
   background: rgba(0, 0, 0, 0.6);
   z-index: 1; }
 
+li {
+  font-size: 0.8em;
+  line-height: 1.8; }
+
 /* Solarized Dark
 
 For use with Jekyll and Pygments

@@ -66,7 +66,7 @@
   <h1>Full Stack JS Guide</h1>
   <span class="post-meta">Sep 12, 2015</span><br>
   
- <!-- <span class="post-meta small">9 minute read</span> -->
+ <!-- <span class="post-meta small">12 minute read</span> -->
 </div>
 
 
@@ -85,11 +85,8 @@
             //Expand or collapse this panel
             $(this).next().slideToggle('fast');
 
-            //$(this).css('color', '#8098FD');
-
             //Hide the other panels
-            $(".accordion-content").not($(this).next()).slideUp(
-                'fast');
+            $(".accordion-content").not($(this).next()).slideUp('fast');
         });
     });
 </script>
@@ -103,12 +100,12 @@
         border: solid #8098FD 1px;
         border-radius: 8px;
         padding: 10px;
-        text-align: center;
+        /* text-align: center; */
     }
     .accordion-content {
         margin-left: 10px;
         display: none;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     .accordion-content.default,
     .accordion-content.default label {
@@ -135,15 +132,15 @@
         border: solid #80E1D2 1px;
     }
     .accordion-content p {
-        text-align: center;
+        /* text-align: center; */
         color: #80E1D2;
     }
 </style>
 
 <!-- HTML -->
+<h2 class="">JavaScript</h2>
 <div id="accordion">
     <form data-persist="garlic">
-
         <h4 class="accordion-toggle">Weeks 1 & 2 <!--&#9660--></h4>
         <div class="accordion-content">
             <p>Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions,
@@ -229,184 +226,259 @@
         <h4 class="accordion-toggle">Project</h4>
         <div class="accordion-content">
             <p>Your First Project</p>
-            <form data-persist="garlic">
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">1. At this juncture, you have learned enough to build a solid
-                    web application that is manageable. Don’t proceed any further
-                    until you can successfully build this application I describe
-                    below. As I noted earlier, if you are stuck, ask questions
-                    on Stack Overflow and reread sections of the book to properly
-                    understand the concepts.
-                    <br>You are building a JavaScript quiz application (you will use
-                    HTML and CSS as well) that will function as follows:
-                    <ul>
-                        <li>It is a simple quiz that has radio button choices, and
-                            it will show the user her score upon completion.</li>
-                        <li>The quiz can show any number of questions and any number
-                            of choices.</li>
-                        <li>Tally the user’s score and display the final score on the
-                            last page. The last page will only show the score,
-                            so remove the last question.</li>
-                        <li>Use an array to store all the questions. Each question,
-                            along with its choices and correct answer, should be
-                            stored in an object. The array of questions should
-                            look similar to this:</li>
-                        <pre>// Only one question is in this array, but you will add all the questions.var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?", choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"], correctAnswer:0}];</pre>
-                        <li>Dynamically (with document.getElementById or jQuery) add
-                            the next question and remove the current question from
-                            the screen, when the user clicks the “Next” button.
-                            The Next button will be the only button to navigate
-                            this version of the quiz.</li>
-                        <li>You can ask for help in the comments below or preferably
-                            on Stack Overflow. You are likely to get a prompt and
-                            accurate answer on Stack Overflow.</li>
-                    </ul>
-                </label>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. At this juncture, you have learned enough to build a solid web
+                application that is manageable. Don’t proceed any further until
+                you can successfully build this application I describe below. As
+                I noted earlier, if you are stuck, ask questions on Stack Overflow
+                and reread sections of the book to properly understand the concepts.
+                <br>You are building a JavaScript quiz application (you will use HTML
+                and CSS as well) that will function as follows:
+                <ul>
+                    <li>It is a simple quiz that has radio button choices, and it will
+                        show the user her score upon completion.</li>
+                    <li>The quiz can show any number of questions and any number of
+                        choices.</li>
+                    <li>Tally the user’s score and display the final score on the last
+                        page. The last page will only show the score, so remove
+                        the last question.</li>
+                    <li>Use an array to store all the questions. Each question, along
+                        with its choices and correct answer, should be stored in
+                        an object. The array of questions should look similar to
+                        this:</li>
+                    <pre>// Only one question is in this array, but you will add all the questions.var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?", choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"], correctAnswer:0}];</pre>
+                    <li>Dynamically (with document.getElementById or jQuery) add the
+                        next question and remove the current question from the
+                        screen, when the user clicks the “Next” button. The Next
+                        button will be the only button to navigate this version
+                        of the quiz.</li>
+                    <li>You can ask for help in the comments below or preferably on
+                        Stack Overflow. You are likely to get a prompt and accurate
+                        answer on Stack Overflow.</li>
+                </ul>
+            </label>
         </div>
 
         <h4 class="accordion-toggle">Weeks 5 & 6<!--&#9660--></h4>
         <div class="accordion-content">
             <p>Regular Expressions, Window Object, Events, jQuery</p>
-            <form data-persist="garlic">
-
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">1. Read chapters 10, 14, 17, and 20 of JavaScript: The Definitive
-                    Guide. Or read chapters 20 and 23 of Professional JavaScript
-                    for Web Developers.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">2. Remember to keep typing out all the example codes in Firefox
-                    console and tweak each piece of code to experiment with it
-                    to really understand how it works and what it does.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">3. At this point, you should be very comfortable with JavaScript,
-                    probably feeling like a Jedi. You are not quite a Jedi yet,
-                    you must keep using your newly acquired knowledge and skills
-                    as often as possible to keep learning and improving.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">4. Improve Your Quiz Application From Earlier:
-                    <ul>
-                        <li>Add client-side data validation: make sure the user answers
-                            each question before proceeding to the next question.</li>
-                        <li>Add a “Back” button to allow the user to go back and change
-                            her answer. The user can go back up to the first question.
-                            For the questions that the user has answered already,
-                            be sure to show the radio button selected, so that
-                            the user is not forced to answer the questions again,
-                            which she has completed.</li>
-                        <li>Use jQuery to add animation (fade out the current question
-                            and fade in the next question).</li>
-                        <li>Test the quiz on IE 8 and 9, and fix any bugs. This will
-                            give you a good workout.</li>😉
-                        <li>Store the quiz questions in an external JSON file.</li>
-                        <li>Add user authentication: allow users log in, and save their
-                            login credentials to local storage (HTML5 browser storage).</li>
-                        <li>Use cookies to remember the user, and show a “Welcome,
-                            First Name” message when the user returns to the quiz.</li>
-                    </ul>
-                </label>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. Read chapters 10, 14, 17, and 20 of JavaScript: The Definitive
+                Guide. Or read chapters 20 and 23 of Professional JavaScript for
+                Web Developers.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">2. Remember to keep typing out all the example codes in Firefox
+                console and tweak each piece of code to experiment with it to really
+                understand how it works and what it does.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">3. At this point, you should be very comfortable with JavaScript,
+                probably feeling like a Jedi. You are not quite a Jedi yet, you
+                must keep using your newly acquired knowledge and skills as often
+                as possible to keep learning and improving.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">4. Improve Your Quiz Application From Earlier:
+                <ul>
+                    <li>Add client-side data validation: make sure the user answers
+                        each question before proceeding to the next question.</li>
+                    <li>Add a “Back” button to allow the user to go back and change
+                        her answer. The user can go back up to the first question.
+                        For the questions that the user has answered already, be
+                        sure to show the radio button selected, so that the user
+                        is not forced to answer the questions again, which she
+                        has completed.</li>
+                    <li>Use jQuery to add animation (fade out the current question
+                        and fade in the next question).</li>
+                    <li>Test the quiz on IE 8 and 9, and fix any bugs. This will give
+                        you a good workout.</li>😉
+                    <li>Store the quiz questions in an external JSON file.</li>
+                    <li>Add user authentication: allow users log in, and save their
+                        login credentials to local storage (HTML5 browser storage).</li>
+                    <li>Use cookies to remember the user, and show a “Welcome, First
+                        Name” message when the user returns to the quiz.</li>
+                </ul>
+            </label>
         </div>
 
         <h4 class="accordion-toggle">Weeks 7 & 8<!--&#9660--></h4>
         <div class="accordion-content">
             <p>Classes, Inheritance, more HTML5</p>
-            <form data-persist="garlic">
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">1. Read chapters 9, 18, 21, and 22 of JavaScript the Definitive
-                    Guide. Or read my blog post, OOP In JavaScript: What You NEED
-                    to Know.
-                    <br>Or read chapters 6 (only the “Object Creation” and “Inheritance”
-                    sections this time) 16, 22, and 24 of Professional JavaScript
-                    for Web Developers. NOTE: The reading in this section of the
-                    book is the most technical reading you will encounter in this
-                    entire road map. It is up to you if you want to read all of
-                    it. You should at least learn the Prototype Pattern, Factory
-                    Pattern, and Prototypal Inheritance. You don’t have to know
-                    all the other patterns.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">2. Improve Your Quiz Application Even Further:
-                    <ul>
-                        <li>Use Twitter Bootstrap for the entire page layout, including
-                            the quiz elements to make it look more professional.
-                            As an added bonus, use the tabs user interface component
-                            from Twitter Bootstrap and show 4 different quizzes,
-                            one on each tab.</li>
-                        <li>Learn Handlebars.js and add Handlebars.js templating to
-                            the quiz. You should no longer have any HTML in your
-                            JavaScript code. Your quiz is getting more advanced
-                            bit by bit.</li>
-                        <li>Keep a record of all the users who take the quiz and show
-                            each user how her score ranks amongst the scores from
-                            other quiz takers.</li>
-                    </ul>
-                </label>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">3. Later (after you have learned Backbone.js and Node.js),
-                    you will use these two technologies to refactor your quiz code
-                    and turn the same quiz into a sophisticated, single-page, modern
-                    web application built with the latest JavaScript frameworks.
-                    And you will store the users’ authentication credentials and
-                    scores in a MongoDB database.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">4. Next: Decide on a personal project to build, and start building
-                    your project promptly (while everything is fresh in your mind).
-                </label>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. Read chapters 9, 18, 21, and 22 of JavaScript the Definitive
+                Guide. Or read my blog post, OOP In JavaScript: What You NEED to
+                Know.
+                <br>Or read chapters 6 (only the “Object Creation” and “Inheritance”
+                sections this time) 16, 22, and 24 of Professional JavaScript for
+                Web Developers. NOTE: The reading in this section of the book is
+                the most technical reading you will encounter in this entire road
+                map. It is up to you if you want to read all of it. You should
+                at least learn the Prototype Pattern, Factory Pattern, and Prototypal
+                Inheritance. You don’t have to know all the other patterns.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">2. Improve Your Quiz Application Even Further:
+                <ul>
+                    <li>Use Twitter Bootstrap for the entire page layout, including
+                        the quiz elements to make it look more professional. As
+                        an added bonus, use the tabs user interface component from
+                        Twitter Bootstrap and show 4 different quizzes, one on
+                        each tab.</li>
+                    <li>Learn Handlebars.js and add Handlebars.js templating to the
+                        quiz. You should no longer have any HTML in your JavaScript
+                        code. Your quiz is getting more advanced bit by bit.</li>
+                    <li>Keep a record of all the users who take the quiz and show each
+                        user how her score ranks amongst the scores from other
+                        quiz takers.</li>
+                </ul>
+            </label>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">3. Later (after you have learned Backbone.js and Node.js), you
+                will use these two technologies to refactor your quiz code and
+                turn the same quiz into a sophisticated, single-page, modern web
+                application built with the latest JavaScript frameworks. And you
+                will store the users’ authentication credentials and scores in
+                a MongoDB database.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">4. Next: Decide on a personal project to build, and start building
+                your project promptly (while everything is fresh in your mind).
+            </label>
         </div>
 
         <!-- Advanced javascript -->
         <h4 class="accordion-toggle">Weeks 9 & 10<!--&#9660--></h4>
         <div class="accordion-content">
             <p>Essential JavaScript Techniques & Complete JavaScript Jedi Training</p>
-            <form data-persist="garlic">
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">1. Read the entire Effective JavaScript book. This is my favorite
-                    JavaScript book. Every page is packed with incredible tips
-                    and insightful techniques. I kept whispering, “A Ha,” on many
-                    pages.
-                    <br>It provides you with 68 excellent JavaScript techniques and
-                    concepts that you need to know as a JavaScript developer.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">2. While reading the book, practice the concepts in WebStorm
-                    or your browser’s console to reinforce and completely understand
-                    the topics through hands-on practice. Simply trying to memorize
-                    everything you have learned without practicing is a great way
-                    to ensure you will forget them and never completely understand
-                    them.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">3. Since we are trained JavaScript apprentices, we needn’t
-                    develop an application while learning the advanced JavaScript
-                    techniques. We only have to know and understand all the advanced
-                    techniques, so we can whip them out and use them or look them
-                    up and use them, when the need arises.
-                    <br>Read the entire JavaScript Patterns book.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">4. Optional: Since there are a few hours to spare this week,
-                    you should have enough time to watch Douglas Crockford’s Advanced
-                    JavaScript Videos. They are not too lengthy.
-                </label>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. Read the entire Effective JavaScript book. This is my favorite
+                JavaScript book. Every page is packed with incredible tips and
+                insightful techniques. I kept whispering, “A Ha,” on many pages.
+                <br>It provides you with 68 excellent JavaScript techniques and concepts
+                that you need to know as a JavaScript developer.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">2. While reading the book, practice the concepts in WebStorm or
+                your browser’s console to reinforce and completely understand the
+                topics through hands-on practice. Simply trying to memorize everything
+                you have learned without practicing is a great way to ensure you
+                will forget them and never completely understand them.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">3. Since we are trained JavaScript apprentices, we needn’t develop
+                an application while learning the advanced JavaScript techniques.
+                We only have to know and understand all the advanced techniques,
+                so we can whip them out and use them or look them up and use them,
+                when the need arises.
+                <br>Read the entire JavaScript Patterns book.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">4. Optional: Since there are a few hours to spare this week, you
+                should have enough time to watch Douglas Crockford’s Advanced JavaScript
+                Videos. They are not too lengthy.
+            </label>
+        </div>
+        <br>
+        
+        <h2>Node (coming soon)</h2>
+        <h4 class="accordion-toggle">Weeks 1 & 2 <!--&#9660--></h4>
+        <div class="accordion-content">
+            <p>Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions,
+                Control Flow, and Loops</p>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. If you do not already know HTML and CSS very well, complete
+                the Web Fundamentals Track on Codecademy.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">2. Read the Preface and Chapters 1 and 2 of JavaScript: The Definitive
+                Guide. Or Read the Introduction and Chapters 1 and 2 of Professional
+                JavaScript for Web Developers.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">3. Work through the Introduction to JavaScript section of the JavaScript
+                Track on Codecademy.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">4. Read chapters 3 and 4 of JavaScript: The Definitive Guide. Or
+                Read the Preface and Chapters 3 and 4 of Professional JavaScript
+                for Web Developers. You can skip the section on “Bitwise Operators”;
+                it is hardly likely you will use those in your JavaScript career.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">5. Read chapter 5 of JavaScript: The Definitive Guide. No reading
+                for Professional JavaScript for Web Developers, you have learned
+                the material already in the last chapter.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">6. And work through sections 2 to 5 of the JavaScript Track on
+                Codecademy.
+            </label>
         </div>
 
-        </form>
+        <h4 class="accordion-toggle">Weeks 3 & 4 <!--&#9660--></h4>
+        <div class="accordion-content">
+            <p>Objects, Arrays, Functions, DOM, jQuery</p>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. Read my post JavaScript Objects in Detail. Or read chapter 6
+                of JavaScript: The Definitive Guide.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">2. Read chapters 7 and 8 of JavaScript: The Definitive Guide. Or
+                read chapters 5 and 7 of Professional JavaScript for Web Developers
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">3. At this juncture, you should be spending a lot of time writing
+                code in your browser’s console and testing if-else statements,
+                for loops, Arrays, Functions, Objects, and more. It is critically
+                important that you know (and keep practicing) how to code independently
+                (without help from Codecademy) in your browser.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">4. Return to Codecademy and complete the JavaScript track by working
+                through sections 6, 7, and 8 (Data Structures to Object 2).
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">5. While you are on Codecademy, go ahead and build the 5 little
+                Basic Projects on the Projects track. After this, you are done
+                with Codecademy. And this is a good thing, because the more you
+                work on your own, the faster you will learn and the better prepared
+                you will be to start programming on your own.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">6. Read chapters 13, 15, 16, and 19 of JavaScript: The Definitive
+                Guide. Or read chapters 8, 9, 10, 11, 13, and 14 of Professional
+                JavaScript for Web Developers. This book does not cover jQuery,
+                and the jQuery coverage on Codecademy is insufficient. Follow this
+                jQuery course—it is free: http://try.jquery.com/
+            </label>
+        </div>
+
+    </form>
 </div>
+<br>
 
 <br>
-<p>This is basically a repost from <a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly/">javascriptissexy.com</a>,
-    for my own tracking purposes. Due credits are at the bottom.</p>
+<p>This is a repost from <a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly/">javascriptissexy.com</a>,
+    for my own tracking purposes. All credit for the content goes to javascriptissexy.</p>
 
 </article>
 

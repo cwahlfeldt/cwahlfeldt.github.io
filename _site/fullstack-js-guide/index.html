@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html class="animated fadeIn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Full Stack JS Guide &#8211; Chris Wahlfeldt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reposts and resources for learning javascript devlopment on the entire stack of an application.">
+    <meta name="author" content="Chris Wahlfeldt">
+    <meta name="keywords" content="">
+    <link rel="canonical" href="//fullstack-js-guide/">
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href=" /css/pixyll.css " type="text/css">
+    <link rel="stylesheet" href=" /css/animate.css " type="text/css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Full Stack JS Guide">
+    <meta property="og:description" content="This is my personal site and I use it to post my projects and write about things that include: stuff im working on, videogames, 3D stuff, the &#39;interweb&#39;, and how to make shit!">
+    <meta property="og:url" content="//fullstack-js-guide/">
+    <meta property="og:site_name" content="Chris Wahlfeldt">
+</head>
+
+<body class="">
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <div class="animated fadeInLeft cube left"><iframe src="../../../../../threejs_test.html" frameborder="0" width="" height=""></iframe></div>
+      <a href="/" class="site-title">Chris Wahlfeldt</a>
+      <nav class="site-nav right">
+        <a href="/about/">About</a>
+<a href="/projects/">Work</a>
+<a href="/contact/">Contact</a>
+<a href="/">Blog</a>
+
+      </nav>
+      <div class="clearfix"></div>
+      
+      
+    </div>
+  </div>
+</header>
+
+    <!--<br>
+    <br>-->
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+
+
+<div class="post-header mb2">
+  <h1>Full Stack JS Guide</h1>
+  <span class="post-meta">Sep 12, 2015</span><br>
+  
+ <!-- <span class="post-meta small">4 minute read</span> -->
+</div>
+
+
+    
+
+
+<article class="post-content">
+  <script src="http://localhost:4000/garlic.min.js"></script>
+
+<!-- JS -->
+<script type="text/javascript">
+    $(document).ready(function($) {
+        $('#accordion').find('.accordion-toggle').click(function() {
+            //Expand or collapse this panel
+            $(this).next().slideToggle('fast');
+
+            //$(this).css('color', '#8098FD');
+
+            //Hide the other panels
+            $(".accordion-content").not($(this).next()).slideUp(
+                'fast');
+        });
+    });
+</script>
+
+<!-- CSS -->
+<style>
+    form {
+        
+    }
+    .accordion-toggle {
+        cursor: pointer;
+        color: #8098FD;
+        margin-bottom: 15px;
+        border: solid #8098FD 1px;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+    }
+    .accordion-content {
+        margin-left: 10px;
+        display: none;
+        margin-bottom:15px;
+    }
+    .accordion-content.default,
+    .accordion-content.default label {
+        margin-left: 8px;
+        display: block;
+    }
+    .accordion-content {
+        margin-left: 8px;
+    }
+    .accordion-content label {
+        display: block;
+    }
+    .accordion-content.default p {
+      margin-left: 0px;
+    }
+    .accordion-label {
+        font-size: 15px;
+    }
+    .accordion-label input {
+        margin-right: 10px;
+    }
+    .accordion-toggle:hover{
+        color: #80E1D2;
+        border: solid #80E1D2 1px;
+    }
+    .accordion-content p {
+        text-align: center;
+        color: #80E1D2;
+    }
+</style>
+
+<!-- HTML -->
+<div id="accordion">
+<form data-persist="garlic">
+
+<h4 class="accordion-toggle">Weeks 1 & 2 <!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions,
+        Control Flow, and Loops</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. If you do not already know HTML and CSS very well, complete the
+            Web Fundamentals Track on Codecademy.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. Read the Preface and Chapters 1 and 2 of JavaScript: The Definitive
+            Guide. Or Read the Introduction and Chapters 1 and 2 of Professional
+            JavaScript for Web Developers.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. Work through the Introduction to JavaScript section of the JavaScript
+            Track on Codecademy.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. Read chapters 3 and 4 of JavaScript: The Definitive Guide. Or Read
+            the Preface and Chapters 3 and 4 of Professional JavaScript for Web
+            Developers. You can skip the section on “Bitwise Operators”; it is
+            hardly likely you will use those in your JavaScript career.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. Read chapter 5 of JavaScript: The Definitive Guide. No reading for
+            Professional JavaScript for Web Developers, you have learned the material
+            already in the last chapter.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">6. And work through sections 2 to 5 of the JavaScript Track on Codecademy.
+        </label>
+        <br>
+    </form>
+</div>
+
+<h4 class="accordion-toggle">Weeks 3 & 4 <!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Objects, Arrays, Functions, DOM, jQuery</p>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. Read my post JavaScript Objects in Detail. Or read chapter 6 of JavaScript: The Definitive Guide.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. Read chapters 7 and 8 of JavaScript: The Definitive Guide. Or read chapters 5 and 7 of Professional JavaScript for Web Developers
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. At this juncture, you should be spending a lot of time writing code in your browser’s console and testing if-else statements, for loops, Arrays, Functions, Objects, and more. It is critically important that you know (and keep practicing) how to code independently (without help from Codecademy) in your browser.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. Return to Codecademy and complete the JavaScript track by working through sections 6, 7, and 8 (Data Structures to Object 2).
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. While you are on Codecademy, go ahead and build the 5 little Basic Projects on the Projects track. After this, you are done with Codecademy. And this is a good thing, because the more you work on your own, the faster you will learn and the better prepared you will be to start programming on your own.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">6. Read chapters 13, 15, 16, and 19 of JavaScript: The Definitive Guide. Or read chapters 8, 9, 10, 11, 13, and 14 of Professional JavaScript for Web Developers. This book does not cover jQuery, and the jQuery coverage on Codecademy is insufficient. Follow this jQuery course—it is free: http://try.jquery.com/
+        </label>
+        <br>
+</div>
+
+<h4 class="accordion-toggle">Test<!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Your First Project</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. 
+        </label>
+        <br>
+</div>
+
+<h4 class="accordion-toggle">Weeks 5 & 6<!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Regular Expressions, Window Object, Events, jQuery</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. 
+        </label>
+        <br>
+</div>
+
+<h4 class="accordion-toggle">Weeks 7 & 8<!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Classes, Inheritance, more HTML5</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. 
+        </label>
+        <br>
+</div>
+
+<!-- Advanced javascript -->
+<h4 class="accordion-toggle">Weeks 9 & 10<!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Essential JavaScript Techniques & Complete JavaScript Jedi Training</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. 
+        </label>
+        <br>
+</div>
+
+</form>
+</div>
+
+<br>
+<p>This is basically a repost from <a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly/">javascriptissexy.com</a>,
+    for my own tracking purposes. Due credits are at the bottom.</p>
+
+</article>
+
+
+
+
+
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname  = 'waffleiron';
+    var disqus_identifier = '/js-study-guide';
+
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="p2 wrap">
+        <div class="measure mt1 center">
+            <small>
+                <div class="social-icons">
+  <div class="">
+    
+      <a class="fa fa-facebook" target="_blank" href="https://facebook.com/cwahlfeldt"></a>
+    
+    
+      <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/pub/christopher-wahlfeldt/74/794/214"></a>
+    
+    
+      <a class="fa fa-github" target="_blank" href="https://github.com/cwahlfeldt"></a>
+    
+    
+      <a class="fa fa-stack-overflow" target="_blank" href="https://stackoverflow.com/users/3534217"></a>
+    
+    <!-- <a class="fa fa-rss" target="_blank" href="/feed.xml"></a> -->
+    
+      <a class="fa fa-twitter" target="_blank" href="https://twitter.com/ChrisWahlfeldt"></a>
+    
+    
+    
+      <a class="fa fa-envelope" href="mailto:chriswahlfeldt@gmail.com"></a>
+    
+  </div>
+  <div class="right">
+    
+    
+  </div>
+</div>
+<div class="clearfix"></div>
+      
+            </small>
+            <!-- <small>
+                I &hearts; you for taking a second to check out my site!  
+            </small> -->
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,261 @@
+---
+layout: post
+title: Full Stack JS Guide
+summary: Reposts and resources for learning javascript devlopment on the entire stack of an application.
+image: https://www.rascal.columbia.edu/images/jscript.gif
+publish: true
+permalink: /fullstack-js-guide/
+---
+
+<script src="http://localhost:4000/garlic.min.js"></script>
+
+<!-- JS -->
+<script type="text/javascript">
+    $(document).ready(function($) {
+        $('#accordion').find('.accordion-toggle').click(function() {
+            //Expand or collapse this panel
+            $(this).next().slideToggle('fast');
+
+            //$(this).css('color', '#8098FD');
+
+            //Hide the other panels
+            $(".accordion-content").not($(this).next()).slideUp(
+                'fast');
+        });
+    });
+</script>
+
+<!-- CSS -->
+<style>
+    form {
+        
+    }
+    .accordion-toggle {
+        cursor: pointer;
+        color: #8098FD;
+        margin-bottom: 15px;
+        border: solid #8098FD 1px;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+    }
+    .accordion-content {
+        margin-left: 10px;
+        display: none;
+        margin-bottom:15px;
+    }
+    .accordion-content.default,
+    .accordion-content.default label {
+        margin-left: 8px;
+        display: block;
+    }
+    .accordion-content {
+        margin-left: 8px;
+    }
+    .accordion-content label {
+        display: block;
+    }
+    .accordion-content.default p {
+      margin-left: 0px;
+    }
+    .accordion-label {
+        font-size: 15px;
+    }
+    .accordion-label input {
+        margin-right: 10px;
+    }
+    .accordion-toggle:hover{
+        color: #80E1D2;
+        border: solid #80E1D2 1px;
+    }
+    .accordion-content p {
+        text-align: center;
+        color: #80E1D2;
+    }
+</style>
+
+<!-- HTML -->
+<div id="accordion">
+<form data-persist="garlic">
+
+<h4 class="accordion-toggle">Weeks 1 & 2 <!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions,
+        Control Flow, and Loops</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. If you do not already know HTML and CSS very well, complete the
+            Web Fundamentals Track on Codecademy.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. Read the Preface and Chapters 1 and 2 of JavaScript: The Definitive
+            Guide. Or Read the Introduction and Chapters 1 and 2 of Professional
+            JavaScript for Web Developers.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. Work through the Introduction to JavaScript section of the JavaScript
+            Track on Codecademy.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. Read chapters 3 and 4 of JavaScript: The Definitive Guide. Or Read
+            the Preface and Chapters 3 and 4 of Professional JavaScript for Web
+            Developers. You can skip the section on “Bitwise Operators”; it is
+            hardly likely you will use those in your JavaScript career.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. Read chapter 5 of JavaScript: The Definitive Guide. No reading for
+            Professional JavaScript for Web Developers, you have learned the material
+            already in the last chapter.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">6. And work through sections 2 to 5 of the JavaScript Track on Codecademy.
+        </label>
+        <br>
+    </form>
+</div>
+
+<h4 class="accordion-toggle">Weeks 3 & 4 <!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Objects, Arrays, Functions, DOM, jQuery</p>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. Read my post JavaScript Objects in Detail. Or read chapter 6 of JavaScript: The Definitive Guide.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. Read chapters 7 and 8 of JavaScript: The Definitive Guide. Or read chapters 5 and 7 of Professional JavaScript for Web Developers
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. At this juncture, you should be spending a lot of time writing code in your browser’s console and testing if-else statements, for loops, Arrays, Functions, Objects, and more. It is critically important that you know (and keep practicing) how to code independently (without help from Codecademy) in your browser.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. Return to Codecademy and complete the JavaScript track by working through sections 6, 7, and 8 (Data Structures to Object 2).
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. While you are on Codecademy, go ahead and build the 5 little Basic Projects on the Projects track. After this, you are done with Codecademy. And this is a good thing, because the more you work on your own, the faster you will learn and the better prepared you will be to start programming on your own.
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">6. Read chapters 13, 15, 16, and 19 of JavaScript: The Definitive Guide. Or read chapters 8, 9, 10, 11, 13, and 14 of Professional JavaScript for Web Developers. This book does not cover jQuery, and the jQuery coverage on Codecademy is insufficient. Follow this jQuery course—it is free: http://try.jquery.com/
+        </label>
+        <br>
+</div>
+
+<h4 class="accordion-toggle">Test<!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Your First Project</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. 
+        </label>
+        <br>
+</div>
+
+<h4 class="accordion-toggle">Weeks 5 & 6<!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Regular Expressions, Window Object, Events, jQuery</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. 
+        </label>
+        <br>
+</div>
+
+<h4 class="accordion-toggle">Weeks 7 & 8<!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Classes, Inheritance, more HTML5</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. 
+        </label>
+        <br>
+</div>
+
+<!-- Advanced javascript -->
+<h4 class="accordion-toggle">Weeks 9 & 10<!--&#9660--></h4>
+<div class="accordion-content">
+    <p>Essential JavaScript Techniques & Complete JavaScript Jedi Training</p>
+    <form data-persist="garlic">
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">1. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">2. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">3. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">4. 
+        </label>
+        <br>
+        <label class="accordion-label">
+            <input type="checkbox" class="checkbox">5. 
+        </label>
+        <br>
+</div>
+
+</form>
+</div>
+
+<br>
+<p>This is basically a repost from <a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly/">javascriptissexy.com</a>,
+    for my own tracking purposes. Due credits are at the bottom.</p>

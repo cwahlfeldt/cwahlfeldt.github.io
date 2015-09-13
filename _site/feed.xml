@@ -8,7 +8,8 @@
     
       <item>
         <title>Full Stack JS Guide</title>
-        <description>&lt;script src=&quot;http://cwahlfeldt.github.io/garlic.min.js&quot;&gt;&lt;/script&gt;
+        <description>&lt;!-- Garlic.js for persistant data saved to your browser. In our case we save the checkbox boolean with garlic --&gt;
+&lt;script src=&quot;http://cwahlfeldt.github.io/garlic.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;!-- JS --&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
@@ -91,6 +92,12 @@
         -o-transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
+    }
+
+    @media screen and (max-width: 48em) {
+        .tri {
+            margin-top: 0px !important;
+        }
     }
 &lt;/style&gt;
 

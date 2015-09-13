@@ -74,7 +74,8 @@
 
 
 <article class="post-content">
-  <script src="http://cwahlfeldt.github.io/garlic.min.js"></script>
+  <!-- Garlic.js for persistant data saved to your browser. In our case we save the checkbox boolean with garlic -->
+<script src="http://cwahlfeldt.github.io/garlic.min.js"></script>
 
 <!-- JS -->
 <script type="text/javascript">
@@ -157,6 +158,12 @@
         -o-transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
+    }
+
+    @media screen and (max-width: 48em) {
+        .tri {
+            margin-top: 0px !important;
+        }
     }
 </style>
 

@@ -6,7 +6,7 @@ image: https://www.rascal.columbia.edu/images/jscript.gif
 publish: true
 permalink: /fullstack-js-guide/
 ---
-
+<!-- Garlic.js for persistant data saved to your browser. In our case we save the checkbox boolean with garlic -->
 <script src="http://cwahlfeldt.github.io/garlic.min.js"></script>
 
 <!-- JS -->
@@ -90,6 +90,12 @@ permalink: /fullstack-js-guide/
         -o-transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
+    }
+
+    @media screen and (max-width: 48em) {
+        .tri {
+            margin-top: 0px !important;
+        }
     }
 </style>
 

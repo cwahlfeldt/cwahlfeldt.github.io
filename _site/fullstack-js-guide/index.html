@@ -66,7 +66,7 @@
   <h1>Full Stack JS Guide</h1>
   <span class="post-meta">Sep 12, 2015</span><br>
   
- <!-- <span class="post-meta small">12 minute read</span> -->
+ <!-- <span class="post-meta small">10 minute read</span> -->
 </div>
 
 
@@ -85,8 +85,11 @@
             //Expand or collapse this panel
             $(this).next().slideToggle('fast');
 
+            // toggle rotation of triangle
+            $(this).find('.tri').toggleClass('toggle');
+
             //Hide the other panels
-            $(".accordion-content").not($(this).next()).slideUp('fast');
+            //$(".accordion-content").not($(this).next()).slideUp('fast');
         });
     });
 </script>
@@ -135,13 +138,33 @@
         /* text-align: center; */
         color: #80E1D2;
     }
+    .tri {
+        width: 0;
+        height: 0;
+        margin-top: 5px;
+        margin-right: 5px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid #8098FD;
+        float: right;
+        -moz-transition: -moz-transform .3s;
+        -webkit-transition: -webkit-transform .3s;
+        -o-transition: -o-transform .3s;
+        transition: transform .3s;
+    }
+    .toggle {
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
 </style>
 
 <!-- HTML -->
 <h2 class="">JavaScript</h2>
 <div id="accordion">
     <form data-persist="garlic">
-        <h4 class="accordion-toggle">Weeks 1 & 2 <!--&#9660--></h4>
+        <h4 class="accordion-toggle">Weeks 1 & 2 <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions,
                 Control Flow, and Loops</p>
@@ -180,7 +203,7 @@
             </label>
         </div>
 
-        <h4 class="accordion-toggle">Weeks 3 & 4 <!--&#9660--></h4>
+        <h4 class="accordion-toggle">Weeks 3 & 4 <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>Objects, Arrays, Functions, DOM, jQuery</p>
             <label class="accordion-label">
@@ -223,7 +246,7 @@
             </label>
         </div>
 
-        <h4 class="accordion-toggle">Project</h4>
+        <h4 class="accordion-toggle">Project <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>Your First Project</p>
             <label class="accordion-label">
@@ -259,7 +282,7 @@
             </label>
         </div>
 
-        <h4 class="accordion-toggle">Weeks 5 & 6<!--&#9660--></h4>
+        <h4 class="accordion-toggle">Weeks 5 & 6 <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>Regular Expressions, Window Object, Events, jQuery</p>
             <label class="accordion-label">
@@ -305,7 +328,7 @@
             </label>
         </div>
 
-        <h4 class="accordion-toggle">Weeks 7 & 8<!--&#9660--></h4>
+        <h4 class="accordion-toggle">Weeks 7 & 8 <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>Classes, Inheritance, more HTML5</p>
             <label class="accordion-label">
@@ -353,7 +376,7 @@
         </div>
 
         <!-- Advanced javascript -->
-        <h4 class="accordion-toggle">Weeks 9 & 10<!--&#9660--></h4>
+        <h4 class="accordion-toggle">Weeks 9 & 10 <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>Essential JavaScript Techniques & Complete JavaScript Jedi Training</p>
             <label class="accordion-label">
@@ -389,92 +412,10 @@
         </div>
         <br>
         
-        <h2>Node (coming soon)</h2>
-        <h4 class="accordion-toggle">Weeks 1 & 2 <!--&#9660--></h4>
-        <div class="accordion-content">
-            <p>Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions,
-                Control Flow, and Loops</p>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">1. If you do not already know HTML and CSS very well, complete
-                the Web Fundamentals Track on Codecademy.
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">2. Read the Preface and Chapters 1 and 2 of JavaScript: The Definitive
-                Guide. Or Read the Introduction and Chapters 1 and 2 of Professional
-                JavaScript for Web Developers.
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">3. Work through the Introduction to JavaScript section of the JavaScript
-                Track on Codecademy.
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">4. Read chapters 3 and 4 of JavaScript: The Definitive Guide. Or
-                Read the Preface and Chapters 3 and 4 of Professional JavaScript
-                for Web Developers. You can skip the section on “Bitwise Operators”;
-                it is hardly likely you will use those in your JavaScript career.
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">5. Read chapter 5 of JavaScript: The Definitive Guide. No reading
-                for Professional JavaScript for Web Developers, you have learned
-                the material already in the last chapter.
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">6. And work through sections 2 to 5 of the JavaScript Track on
-                Codecademy.
-            </label>
-        </div>
-
-        <h4 class="accordion-toggle">Weeks 3 & 4 <!--&#9660--></h4>
-        <div class="accordion-content">
-            <p>Objects, Arrays, Functions, DOM, jQuery</p>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">1. Read my post JavaScript Objects in Detail. Or read chapter 6
-                of JavaScript: The Definitive Guide.
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">2. Read chapters 7 and 8 of JavaScript: The Definitive Guide. Or
-                read chapters 5 and 7 of Professional JavaScript for Web Developers
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">3. At this juncture, you should be spending a lot of time writing
-                code in your browser’s console and testing if-else statements,
-                for loops, Arrays, Functions, Objects, and more. It is critically
-                important that you know (and keep practicing) how to code independently
-                (without help from Codecademy) in your browser.
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">4. Return to Codecademy and complete the JavaScript track by working
-                through sections 6, 7, and 8 (Data Structures to Object 2).
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">5. While you are on Codecademy, go ahead and build the 5 little
-                Basic Projects on the Projects track. After this, you are done
-                with Codecademy. And this is a good thing, because the more you
-                work on your own, the faster you will learn and the better prepared
-                you will be to start programming on your own.
-            </label>
-            <br>
-            <label class="accordion-label">
-                <input type="checkbox" class="checkbox">6. Read chapters 13, 15, 16, and 19 of JavaScript: The Definitive
-                Guide. Or read chapters 8, 9, 10, 11, 13, and 14 of Professional
-                JavaScript for Web Developers. This book does not cover jQuery,
-                and the jQuery coverage on Codecademy is insufficient. Follow this
-                jQuery course—it is free: http://try.jquery.com/
-            </label>
-        </div>
-
+        <!--<h2>Node (coming soon)</h2>-->
+        
     </form>
 </div>
-<br>
 
 <br>
 <p>This is a repost from <a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly/">javascriptissexy.com</a>,

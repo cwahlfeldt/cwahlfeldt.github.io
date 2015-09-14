@@ -136,18 +136,19 @@
             &lt;/p&gt;
             &lt;label class=&quot;accordion-label&quot;&gt;
                 &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. If you do not already know HTML and CSS very well, complete
-                the Web Fundamentals Track on Codecademy.
+                the &lt;a href=&quot;http://www.codecademy.com/tracks/web&quot; class=&quot;external&quot; target=&quot;_blank&quot;&gt;Web Fundamentals&lt;/a&gt; Track on Codecademy.
             &lt;/label&gt;
             &lt;br&gt;
             &lt;label class=&quot;accordion-label&quot;&gt;
                 &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read the Preface and Chapters 1 and 2 of JavaScript: The Definitive
-                Guide. Or Read the Introduction and Chapters 1 and 2 of Professional
+                Guide. Or Read the &lt;a href=&quot;http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36#page=23&quot;&gt;Introduction&lt;/a&gt; and 
+                    &lt;a href=&quot;http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36#page=29&quot;&gt;Chapters 1&lt;/a&gt; and 
+                    &lt;a href=&quot;http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36#page=39&quot;&gt;2&lt;/a&gt; of Professional
                 JavaScript for Web Developers.
             &lt;/label&gt;
             &lt;br&gt;
             &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Work through the Introduction to JavaScript section of the JavaScript
-                Track on Codecademy.
+                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Work through the Introduction to JavaScript section of the &lt;a href=&quot;http://www.codecademy.com/tracks/javascript&quot; class=&quot;external&quot; target=&quot;_blank&quot;&gt;JavaScript Track&lt;/a&gt; on Codecademy.
             &lt;/label&gt;
             &lt;br&gt;
             &lt;label class=&quot;accordion-label&quot;&gt;

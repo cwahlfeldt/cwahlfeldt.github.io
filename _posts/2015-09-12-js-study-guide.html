@@ -19,6 +19,7 @@ permalink: /fullstack-js-guide/
 
             // toggle rotation of triangle
             $(this).find('.tri').toggleClass('toggle');
+            $(this).find('.tri2').toggleClass('toggle2');
 
             //Hide the other panels
             //$(".accordion-content").not($(this).next()).slideUp('fast');
@@ -37,6 +38,7 @@ permalink: /fullstack-js-guide/
         border-radius: 8px;
         padding: 10px;
         /* text-align: center; */
+        font-size: 1.2rem;
     }
     .accordion-content {
         margin-left: 10px;
@@ -74,12 +76,26 @@ permalink: /fullstack-js-guide/
     .tri {
         width: 0;
         height: 0;
-        margin-top: 5px;
+        margin-top: 1px;
         margin-right: 5px;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-right: 10px solid #8098FD;
         float: right;
+        -moz-transition: -moz-transform .3s;
+        -webkit-transition: -webkit-transform .3s;
+        -o-transition: -o-transform .3s;
+        transition: transform .3s;
+    }
+    .tri2 {
+        width: 0;
+        height: 0;
+        margin-top: 5px;
+        margin-right: 5px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid #8098FD;
+        float: left;
         -moz-transition: -moz-transform .3s;
         -webkit-transition: -webkit-transform .3s;
         -o-transition: -o-transform .3s;
@@ -91,22 +107,32 @@ permalink: /fullstack-js-guide/
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
     }
-
+    .toggle2 {
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
     @media screen and (max-width: 768px) {
         .tri {
             margin-top: 0px;
         }
     }
+    #accordion h2 {
+        text-align: center;
+    }
 </style>
 
 <!-- HTML -->
-<h2 class="">JavaScript</h2>
 <div id="accordion">
+    <h2 class="">JavaScript</h2>
     <form data-persist="garlic">
-        <h4 class="accordion-toggle">Weeks 1 & 2 <div class="tri"></div></h4>
+        <h4 class="accordion-toggle">1. JavaScript Data Types, Functions, Control Flow, and Loops <div class="tri"></div></h4>
         <div class="accordion-content">
-            <p>Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions,
-                Control Flow, and Loops</p>
+            <p>
+                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> <br>
+                <a target="_blank" href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36">Professional JavaScript or Web Developers</a>
+            </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. If you do not already know HTML and CSS very well, complete
                 the Web Fundamentals Track on Codecademy.
@@ -142,9 +168,12 @@ permalink: /fullstack-js-guide/
             </label>
         </div>
 
-        <h4 class="accordion-toggle">Weeks 3 & 4 <div class="tri"></div></h4>
+        <h4 class="accordion-toggle">2. Objects, Arrays, Functions, DOM, jQuery <div class="tri"></div></h4>
         <div class="accordion-content">
-            <p>Objects, Arrays, Functions, DOM, jQuery</p>
+            <p>
+                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> <br>
+                <a target="_blank" href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36">Professional JavaScript or Web Developers</a>
+            </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. Read my post JavaScript Objects in Detail. Or read chapter 6
                 of JavaScript: The Definitive Guide.
@@ -185,9 +214,12 @@ permalink: /fullstack-js-guide/
             </label>
         </div>
 
-        <h4 class="accordion-toggle">Project <div class="tri"></div></h4>
+        <h4 class="accordion-toggle">3. Your First Project <div class="tri"></div></h4>
         <div class="accordion-content">
-            <p>Your First Project</p>
+            <p>
+                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> <br>
+                <a target="_blank" href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36">Professional JavaScript or Web Developers</a>
+            </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. At this juncture, you have learned enough to build a solid web
                 application that is manageable. Don’t proceed any further until
@@ -221,9 +253,12 @@ permalink: /fullstack-js-guide/
             </label>
         </div>
 
-        <h4 class="accordion-toggle">Weeks 5 & 6 <div class="tri"></div></h4>
+        <h4 class="accordion-toggle">4. Regular Expressions, Window Object, Events, jQuery <div class="tri"></div></h4>
         <div class="accordion-content">
-            <p>Regular Expressions, Window Object, Events, jQuery</p>
+            <p>
+                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> <br>
+                <a target="_blank" href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36">Professional JavaScript or Web Developers</a>
+            </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. Read chapters 10, 14, 17, and 20 of JavaScript: The Definitive
                 Guide. Or read chapters 20 and 23 of Professional JavaScript for
@@ -267,9 +302,12 @@ permalink: /fullstack-js-guide/
             </label>
         </div>
 
-        <h4 class="accordion-toggle">Weeks 7 & 8 <div class="tri"></div></h4>
+        <h4 class="accordion-toggle">5. Classes, Inheritance, more HTML5 <div class="tri"></div></h4>
         <div class="accordion-content">
-            <p>Classes, Inheritance, more HTML5</p>
+            <p>
+                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> <br>
+                <a target="_blank" href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36">Professional JavaScript or Web Developers</a>
+            </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. Read chapters 9, 18, 21, and 22 of JavaScript the Definitive
                 Guide. Or read my blog post, OOP In JavaScript: What You NEED to
@@ -315,9 +353,12 @@ permalink: /fullstack-js-guide/
         </div>
 
         <!-- Advanced javascript -->
-        <h4 class="accordion-toggle">Weeks 9 & 10 <div class="tri"></div></h4>
+        <h4 class="accordion-toggle">6. Essential JavaScript Techniques & Complete JavaScript Jedi Training <div class="tri"></div></h4>
         <div class="accordion-content">
-            <p>Essential JavaScript Techniques & Complete JavaScript Jedi Training</p>
+            <p>
+                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> <br>
+                <a target="_blank" href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36">Professional JavaScript or Web Developers</a>
+            </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. Read the entire Effective JavaScript book. This is my favorite
                 JavaScript book. Every page is packed with incredible tips and
@@ -351,11 +392,94 @@ permalink: /fullstack-js-guide/
         </div>
         <br>
         
-        <!--<h2>Node (coming soon)</h2>-->
-        
+        <h2>Node</h2>
+        <!-- Advanced javascript -->
+        <h4 class="accordion-toggle">1. Intro to node.js <div class="tri"></div></h4>
+        <div class="accordion-content">
+            <p>
+                <a target="_target" href="http://www.baboon.ir/uploads/2015/06/The.Node_.Beginner.Book_.pdf">The Node Beginner Book</a> <br> 
+                <a target="_target" href="http://htchttp.s3.amazonaws.com/books/professional_node.js.pdf">Professional Node.js: Building Javascript Based Scalable Software</a>
+            </p>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. Read chapter 1 of Professional Node.js and follow the instructions on how to setup Node.js on your development computer. 
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">2. Read the entire Node Beginner Book. As I noted above, it is a tiny book; basically a tutorial. This tutorial will give you a gentle introduction into Node.js and a very basic understanding of what Node.js development involves. It is good to start with this before you read the rest of the Professional Node.js book. 
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">3. Read chapter 2 of Professional Node.js.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">4. Read the CommonJS section of the article at the link below. You need not read the entire article. Here is a <a href="http://pages.citebite.com/i9e9e4d1yxip" class="external" target="_blank">link to just the CommonJS section</a>
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">5. Read chapter 3 to 6 of Professional Node.js. 
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">6. Read the entire Part III section (chapter 7 to 15) of Professional Node.js.
+            </label>
+        </div>
+
+        <h4 class="accordion-toggle">2. Advanced topics in node.js <div class="tri"></div></h4>
+        <div class="accordion-content">
+            <p>
+                <a target="_target" href="http://www.baboon.ir/uploads/2015/06/The.Node_.Beginner.Book_.pdf">The Node Beginner Book</a> <br> 
+                <a target="_target" href="http://htchttp.s3.amazonaws.com/books/professional_node.js.pdf">Professional Node.js: Building Javascript Based Scalable Software</a>
+            </p>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. Read chapter 17 to 22 of Professional Node.js. 
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">2. And finish up by reading the last 3 chapters of Professional Node.js. 
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">3. Learn React <a target="_blank" href="http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/">http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/</a>
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">4. Learn <a target="_blank" href="http://openmymind.net/mongodb.pdf">MongoDB</a> or similar no sql database.
+            </label>
+        </div>
+        <br>
+
+        <h2>Meteor</h2>
+        <h4 class="accordion-toggle">1. Coming Soon! <div class="tri"></div></h4>
+        <div class="accordion-content">
+            <p>
+                <a target="_target" href="http://www.baboon.ir/uploads/2015/06/The.Node_.Beginner.Book_.pdf">The Node Beginner Book</a> <br> 
+                <a target="_target" href="http://htchttp.s3.amazonaws.com/books/professional_node.js.pdf">Professional Node.js: Building Javascript Based Scalable Software</a>
+            </p>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">1. Read chapter 17 to 22 of Professional Node.js. 
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">2. And finish up by reading the last 3 chapters of Professional Node.js. 
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">3. Learn React <a target="_blank" href="http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/">http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/</a>
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">4. Learn <a target="_blank" href="http://openmymind.net/mongodb.pdf">MongoDB</a> or similar no sql database.
+            </label>
+        </div>
+        <br>
+
+        <br>
+        <hr>
     </form>
 </div>
 
 <br>
 <p>This is a repost from <a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly/">javascriptissexy.com</a>,
     for my own tracking purposes. All credit for the content goes to javascriptissexy.</p>
+<p>Add this to your own site <a target="_blank" href="https://github.com/cwahlfeldt/cwahlfeldt.github.io/blob/master/_posts/2015-09-12-js-study-guide.html">https://github.com/cwahlfeldt/cwahlfeldt.github.io/blob/master/_posts/2015-09-12-js-study-guide.html</a></p>

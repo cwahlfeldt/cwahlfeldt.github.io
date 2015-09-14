@@ -66,7 +66,7 @@
   <h1>Full Stack JS Guide</h1>
   <span class="post-meta">Sep 12, 2015</span><br>
   
- <!-- <span class="post-meta small">13 minute read</span> -->
+ <!-- <span class="post-meta small">12 minute read</span> -->
 </div>
 
 
@@ -86,7 +86,7 @@
 
             // toggle rotation of triangle
             $(this).find('.tri').toggleClass('toggle');
-            $(this).find('.tri2').toggleClass('toggle2');
+            //$(this).find('.tri2').toggleClass('toggle2');
 
             //Hide the other panels
             //$(".accordion-content").not($(this).next()).slideUp('fast');
@@ -107,27 +107,21 @@
         /* text-align: center; */
         font-size: 1.2rem;
     }
-     .accordion-content {
-    padding: 8px;
-    margin-left: 5px;
-    border-bottom: solid #8098FD 1px;
-    border-left: solid 1px #8098FD;
-    border-right: solid 1px #8098FD;
-        border-radius: 10px;
-        /* border: solid #80D1E1 1px; */
-    }
     .accordion-content {
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         display: none;
         margin-bottom: 40px;
+        padding: 8px;
+        border-bottom: solid #8098FD 1px;
+        border-left: solid 1px #8098FD;
+        border-right: solid 1px #8098FD;
+        border-radius: 10px;
     }
     .accordion-content.default,
     .accordion-content.default label {
         margin-left: 8px;
         display: block;
-    }
-    .accordion-content {
-        margin-left: 8px;
     }
     .accordion-content label {
         display: block;
@@ -207,8 +201,6 @@
             <h4 class="accordion-toggle">1. JavaScript Data Types, Functions, Control Flow, and Loops <div class="tri"></div></h4>
             <div class="accordion-content">
                 <p>
-                    <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> 
-                    <br>
                     <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript or Web Developers</a>
                 </p>
                 <label class="accordion-label">
@@ -218,35 +210,26 @@
                 </label>
                 <br>
                 <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">2. Read the Preface and Chapters 1 and 2 of JavaScript: The
-                    Definitive Guide. Or Read the <a href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36#page=23">Introduction</a> and
-                    <a href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36#page=29">Chapters 1</a> and
-                    <a href="http://m.friendfeed-media.com/95a8434720c64a63e96ff8c4364fb595d9e98c36#page=39">2</a> of
+                    <input type="checkbox" class="checkbox">2. Read the <a href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=35" target="_blank">Introduction</a> and
+                    <a href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=43" target="_blank">Chapters 1</a> and
+                    <a href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=55" target="_blank">2</a> of
                     Professional JavaScript for Web Developers.
                 </label>
                 <br>
                 <label class="accordion-label">
                     <input type="checkbox" class="checkbox">3. Work through the Introduction to JavaScript section of the
-                    <a
-                    href="http://www.codecademy.com/tracks/javascript" class="external"
-                    target="_blank">JavaScript Track</a>on Codecademy.
+                    <a href="http://www.codecademy.com/tracks/javascript" class="external" target="_blank">JavaScript Track</a> on Codecademy.
                 </label>
                 <br>
                 <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">4. Read chapters 3 and 4 of JavaScript: The Definitive Guide.
-                    Or Read the Preface and Chapters 3 and 4 of Professional JavaScript
+                    <input type="checkbox" class="checkbox">4. Read the Preface and <a href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=67" target="_blank">Chapters 3</a>
+                    and <a href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=127" target="_blank">4</a> of Professional JavaScript
                     for Web Developers. You can skip the section on “Bitwise Operators”;
                     it is hardly likely you will use those in your JavaScript career.
                 </label>
                 <br>
                 <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">5. Read chapter 5 of JavaScript: The Definitive Guide. No reading
-                    for Professional JavaScript for Web Developers, you have learned
-                    the material already in the last chapter.
-                </label>
-                <br>
-                <label class="accordion-label">
-                    <input type="checkbox" class="checkbox">6. And work through sections 2 to 5 of the JavaScript Track
+                    <input type="checkbox" class="checkbox">5. And work through sections 2 to 5 of the <a href="http://www.codecademy.com/tracks/javascript" class="external" target="_blank">JavaScript Track</a>
                     on Codecademy.
                 </label>
             </div>
@@ -255,18 +238,14 @@
         <h4 class="accordion-toggle">2. Objects, Arrays, Functions, DOM, jQuery <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>
-                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> 
-                <br>
-                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript or Web Developers</a>
+                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript For Web Developers</a>
             </p>
             <label class="accordion-label">
-                <input type="checkbox" class="checkbox">1. Read my post JavaScript Objects in Detail. Or read chapter 6
-                of JavaScript: The Definitive Guide.
+                <input type="checkbox" class="checkbox">1. Read the post <a target="_blank" href="http://javascriptissexy.com/javascript-objects-in-detail/">JavaScript Objects in Detail</a>. 
             </label>
             <br>
             <label class="accordion-label">
-                <input type="checkbox" class="checkbox">2. Read chapters 7 and 8 of JavaScript: The Definitive Guide. Or
-                read chapters 5 and 7 of Professional JavaScript for Web Developers
+                <input type="checkbox" class="checkbox">2. Read chapters 5 and 7 of Professional JavaScript for Web Developers
             </label>
             <br>
             <label class="accordion-label">
@@ -291,8 +270,7 @@
             </label>
             <br>
             <label class="accordion-label">
-                <input type="checkbox" class="checkbox">6. Read chapters 13, 15, 16, and 19 of JavaScript: The Definitive
-                Guide. Or read chapters 8, 9, 10, 11, 13, and 14 of Professional
+                <input type="checkbox" class="checkbox">6. Read chapters 8, 9, 10, 11, 13, and 14 of Professional
                 JavaScript for Web Developers. This book does not cover jQuery,
                 and the jQuery coverage on Codecademy is insufficient. Follow this
                 jQuery course—it is free: http://try.jquery.com/
@@ -302,9 +280,7 @@
         <h4 class="accordion-toggle">3. Your First Project <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>
-                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> 
-                <br>
-                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript or Web Developers</a>            
+                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript For Web Developers</a>            
             </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. At this juncture, you have learned enough to build a solid web
@@ -344,9 +320,7 @@
         <h4 class="accordion-toggle">4. Regular Expressions, Window Object, Events, jQuery <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>
-                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> 
-                <br>
-                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript or Web Developers</a>
+                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript For Web Developers</a>
             </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. Read chapters 10, 14, 17, and 20 of JavaScript: The Definitive
@@ -394,9 +368,7 @@
         <h4 class="accordion-toggle">5. Classes, Inheritance, more HTML5 <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>
-                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> 
-                <br>
-                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript or Web Developers</a>
+                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript For Web Developers</a>
             </p>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">1. Read chapters 9, 18, 21, and 22 of JavaScript the Definitive
@@ -446,12 +418,10 @@
         <h4 class="accordion-toggle">6. Essential JavaScript Techniques & Complete JavaScript Jedi Training <div class="tri"></div></h4>
         <div class="accordion-content">
             <p>
-                <a target="_blank" href="http://digilib.mercubuana.ac.id/manager/file_ebook/Isi1703239915170.pdf">Beginning JavaScript</a> 
-                <br>
-                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript or Web Developers</a>
+                <a target="_blank" href="http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf">Professional JavaScript For Web Developers</a>
             </p>
             <label class="accordion-label">
-                <input type="checkbox" class="checkbox">1. Read the entire Effective JavaScript book. This is my favorite
+                <input type="checkbox" class="checkbox">1. Read the entire <a href="http://ptgmedia.pearsoncmg.com/images/9780321812186/samplepages/0321812182.pdf" target="_blank">Effective JavaScript</a> book. This is my favorite
                 JavaScript book. Every page is packed with incredible tips and
                 insightful techniques. I kept whispering, “A Ha,” on many pages.
                 <br>It provides you with 68 excellent JavaScript techniques and concepts
@@ -472,13 +442,17 @@
                 We only have to know and understand all the advanced techniques,
                 so we can whip them out and use them or look them up and use them,
                 when the need arises.
-                <br>Read the entire JavaScript Patterns book.
+                <br>Read the entire <a href="https://digitalrepo.files.wordpress.com/2015/07/stoyan-stefanov-javascript-patterns.pdf" target="_blank">JavaScript Patterns</a> book.
             </label>
             <br>
             <label class="accordion-label">
                 <input type="checkbox" class="checkbox">4. Optional: Since there are a few hours to spare this week, you
                 should have enough time to watch Douglas Crockford’s Advanced JavaScript
                 Videos. They are not too lengthy.
+            </label>
+            <br>
+            <label class="accordion-label">
+                <input type="checkbox" class="checkbox">5. With the global adoption of ES6, Read <a target="_blank" href="https://leanpub.com/understandinges6/read#leanpub-auto-introduction">Understanding ECMAScript 6</a>
             </label>
         </div>
         <br>

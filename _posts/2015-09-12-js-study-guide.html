@@ -6,15 +6,14 @@ image: https://www.rascal.columbia.edu/images/jscript.gif
 publish: true
 permalink: /fullstack-js-guide/
 ---
+
 <!-- Garlic.js for persistant data saved to your browser. In our case we save the checkbox boolean with garlic -->
 <script src="http://cwahlfeldt.github.io/garlic.min.js"></script>
 
 <!-- JS -->
 <script type="text/javascript">
-    $(document).ready(function($)
-    {
-        $('#accordion').find('.accordion-toggle').click(function()
-        {
+    $(document).ready(function($) {
+        $('#accordion').find('.accordion-toggle').click(function() {
             //Expand or collapse this panel
             $(this).next().slideToggle('fast');
 
@@ -23,6 +22,7 @@ permalink: /fullstack-js-guide/
 
             //Hide the other panels
             //$(".accordion-content").not($(this).next()).slideUp('fast');
+            
         });
     });
 </script>
@@ -92,9 +92,9 @@ permalink: /fullstack-js-guide/
         transform: rotate(-90deg);
     }
 
-    @media screen and (max-width: 48em) {
+    @media screen and (max-width: 768px) {
         .tri {
-            margin-top: 0px !important;
+            margin-top: 0px;
         }
     }
 </style>

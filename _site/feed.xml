@@ -13,10 +13,8 @@
 
 &lt;!-- JS --&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    $(document).ready(function($)
-    {
-        $(&#39;#accordion&#39;).find(&#39;.accordion-toggle&#39;).click(function()
-        {
+    $(document).ready(function($) {
+        $(&#39;#accordion&#39;).find(&#39;.accordion-toggle&#39;).click(function() {
             //Expand or collapse this panel
             $(this).next().slideToggle(&#39;fast&#39;);
 
@@ -25,6 +23,7 @@
 
             //Hide the other panels
             //$(&quot;.accordion-content&quot;).not($(this).next()).slideUp(&#39;fast&#39;);
+            
         });
     });
 &lt;/script&gt;
@@ -94,9 +93,9 @@
         transform: rotate(-90deg);
     }
 
-    @media screen and (max-width: 48em) {
+    @media screen and (max-width: 768px) {
         .tri {
-            margin-top: 0px !important;
+            margin-top: 0px;
         }
     }
 &lt;/style&gt;

@@ -24,7 +24,6 @@
 
             //Hide the other panels
             //$(&quot;.accordion-content&quot;).not($(this).next()).slideUp(&#39;fast&#39;);
-            
         });
     });
 &lt;/script&gt;
@@ -131,6 +130,7 @@
 &lt;div id=&quot;accordion&quot;&gt;
     &lt;h2 class=&quot;&quot;&gt;JavaScript&lt;/h2&gt;
     &lt;form data-persist=&quot;garlic&quot;&gt;
+
         &lt;div class=&quot;accordion-item&quot;&gt;
             &lt;h4 class=&quot;accordion-toggle&quot;&gt;1. JavaScript Data Types, Functions, Control Flow, and Loops &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
             &lt;div class=&quot;accordion-content&quot;&gt;
@@ -139,325 +139,378 @@
                 &lt;/p&gt;
                 &lt;label class=&quot;accordion-label&quot;&gt;
                     &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. If you do not already know HTML and CSS very well, complete
-                    the &lt;a href=&quot;http://www.codecademy.com/tracks/web&quot; class=&quot;external&quot;
-                    target=&quot;_blank&quot;&gt;Web Fundamentals&lt;/a&gt; Track on Codecademy.
+                    the
+                    &lt;a href=&quot;http://www.codecademy.com/tracks/web&quot; class=&quot;external&quot; target=&quot;_blank&quot;&gt;Web Fundamentals&lt;/a&gt;Track
+                    on Codecademy.
                 &lt;/label&gt;
                 &lt;br&gt;
                 &lt;label class=&quot;accordion-label&quot;&gt;
-                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read the &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=35&quot; target=&quot;_blank&quot;&gt;Introduction&lt;/a&gt; and
-                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=43&quot; target=&quot;_blank&quot;&gt;Chapters 1&lt;/a&gt; and
-                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=55&quot; target=&quot;_blank&quot;&gt;2&lt;/a&gt; of
-                    Professional JavaScript for Web Developers.
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read the &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=35&quot;
+                    target=&quot;_blank&quot;&gt;Introduction&lt;/a&gt; and
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=43&quot;
+                    target=&quot;_blank&quot;&gt;Chapters 1&lt;/a&gt; and
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=55&quot;
+                    target=&quot;_blank&quot;&gt;2&lt;/a&gt; of Professional JavaScript
+                    for Web Developers.
                 &lt;/label&gt;
                 &lt;br&gt;
                 &lt;label class=&quot;accordion-label&quot;&gt;
                     &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Work through the Introduction to JavaScript section of the
-                    &lt;a href=&quot;http://www.codecademy.com/tracks/javascript&quot; class=&quot;external&quot; target=&quot;_blank&quot;&gt;JavaScript Track&lt;/a&gt; on Codecademy.
+                    &lt;a href=&quot;http://www.codecademy.com/tracks/javascript&quot; class=&quot;external&quot; target=&quot;_blank&quot;&gt;JavaScript Track&lt;/a&gt; on
+                    Codecademy.
                 &lt;/label&gt;
                 &lt;br&gt;
                 &lt;label class=&quot;accordion-label&quot;&gt;
-                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Read the Preface and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=67&quot; target=&quot;_blank&quot;&gt;Chapters 3&lt;/a&gt;
-                    and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=127&quot; target=&quot;_blank&quot;&gt;4&lt;/a&gt; of Professional JavaScript
-                    for Web Developers. You can skip the section on “Bitwise Operators”;
-                    it is hardly likely you will use those in your JavaScript career.
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Read the Preface and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=67&quot;
+                    target=&quot;_blank&quot;&gt;Chapters 3&lt;/a&gt;
+                    and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=127&quot;
+                    target=&quot;_blank&quot;&gt;4&lt;/a&gt; of Professional JavaScript for Web Developers.
+                    You can skip the section on “Bitwise Operators”; it is hardly
+                    likely you will use those in your JavaScript career.
                 &lt;/label&gt;
                 &lt;br&gt;
                 &lt;label class=&quot;accordion-label&quot;&gt;
-                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. And work through sections 2 to 5 of the &lt;a href=&quot;http://www.codecademy.com/tracks/javascript&quot; class=&quot;external&quot; target=&quot;_blank&quot;&gt;JavaScript Track&lt;/a&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. And work through sections 2 to 5 of the &lt;a href=&quot;http://www.codecademy.com/tracks/javascript&quot;
+                    class=&quot;external&quot; target=&quot;_blank&quot;&gt;JavaScript Track&lt;/a&gt;
                     on Codecademy.
                 &lt;/label&gt;
             &lt;/div&gt;
         &lt;/div&gt;
 
-        &lt;h4 class=&quot;accordion-toggle&quot;&gt;2. Objects, Arrays, Functions, DOM, jQuery &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
-        &lt;div class=&quot;accordion-content&quot;&gt;
-            &lt;p&gt;
-                &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;
-            &lt;/p&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read the post &lt;a target=&quot;_blank&quot; href=&quot;http://javascriptissexy.com/javascript-objects-in-detail/&quot;&gt;JavaScript Objects in Detail&lt;/a&gt;. 
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=67&quot; target=&quot;_blank&quot;&gt;chapters 5&lt;/a&gt; 
-                and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=145&quot; target=&quot;_blank&quot;&gt;7&lt;/a&gt; of Professional JavaScript for Web Developers
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. At this juncture, you should be spending a lot of time writing
-                code in your browser’s console and testing if-else statements,
-                for loops, Arrays, Functions, Objects, and more. It is critically
-                important that you know (and keep practicing) how to code independently
-                (without help from Codecademy) in your browser.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Return to Codecademy and complete the JavaScript track by working
-                through sections 6, 7, and 8 (Data Structures to Object 2).
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. While you are on Codecademy, go ahead and build the 5 little
-                Basic Projects on the Projects track. After this, you are done
-                with Codecademy. And this is a good thing, because the more you
-                work on your own, the faster you will learn and the better prepared
-                you will be to start programming on your own.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;6. Read chapters 8, 9, 10, 11, 13, and 14 of Professional
-                JavaScript for Web Developers. This book does not cover jQuery,
-                and the jQuery coverage on Codecademy is insufficient. Follow this
-                jQuery course—it is free: http://try.jquery.com/
-            &lt;/label&gt;
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;h4 class=&quot;accordion-toggle&quot;&gt;2. Objects, Arrays, Functions, DOM, jQuery &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
+            &lt;div class=&quot;accordion-content&quot;&gt;
+                &lt;p&gt;
+                    &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read the post &lt;a target=&quot;_blank&quot; href=&quot;http://javascriptissexy.com/javascript-objects-in-detail/&quot;&gt;JavaScript Objects in Detail&lt;/a&gt;.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=67&quot;
+                    target=&quot;_blank&quot;&gt;chapters 5&lt;/a&gt; and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=145&quot;
+                    target=&quot;_blank&quot;&gt;7&lt;/a&gt; of Professional JavaScript for Web Developers
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. At this juncture, you should be spending a lot of time writing
+                    code in your browser’s console and testing if-else statements,
+                    for loops, Arrays, Functions, Objects, and more. It is critically
+                    important that you know (and keep practicing) how to code independently
+                    (without help from Codecademy) in your browser.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Return to Codecademy and complete the &lt;a href=&quot;http://www.codecademy.com/tracks/javascript&quot;
+                    class=&quot;external&quot; target=&quot;_blank&quot;&gt;JavaScript Track&lt;/a&gt; by working
+                    through sections 6, 7, and 8 (Data Structures to Object 2).
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. While you are on Codecademy, go ahead and build the 5 little
+                    Basic Projects on the Projects track. After this, you are done
+                    with Codecademy. And this is a good thing, because the more
+                    you work on your own, the faster you will learn and the better
+                    prepared you will be to start programming on your own.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;6. Read chapters
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=281&quot;
+                    target=&quot;_blank&quot;&gt;8&lt;/a&gt;,
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=313&quot;
+                    target=&quot;_blank&quot;&gt;9&lt;/a&gt;,
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=351&quot;
+                    target=&quot;_blank&quot;&gt;10&lt;/a&gt;,
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=399&quot;
+                    target=&quot;_blank&quot;&gt;11&lt;/a&gt;,
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=473&quot;
+                    target=&quot;_blank&quot;&gt;13&lt;/a&gt;, and
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=553&quot;
+                    target=&quot;_blank&quot;&gt;14&lt;/a&gt; of Professional JavaScript
+                    for Web Developers. This book does not cover jQuery, and the
+                    jQuery coverage on Codecademy is insufficient. Follow this
+                    jQuery course—it is free: &lt;a target=&quot;_blank&quot; href=&quot;http://try.jquery.com/&quot;&gt;http://try.jquery.com/&lt;/a&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
 
-        &lt;h4 class=&quot;accordion-toggle&quot;&gt;3. Your First Project &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
-        &lt;div class=&quot;accordion-content&quot;&gt;
-            &lt;p&gt;
-                &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;            
-            &lt;/p&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. At this juncture, you have learned enough to build a solid web
-                application that is manageable. Don’t proceed any further until
-                you can successfully build this application I describe below. As
-                I noted earlier, if you are stuck, ask questions on Stack Overflow
-                and reread sections of the book to properly understand the concepts.
-                &lt;br&gt;You are building a JavaScript quiz application (you will use HTML
-                and CSS as well) that will function as follows:
-                &lt;ul&gt;
-                    &lt;li&gt;It is a simple quiz that has radio button choices, and it will
-                        show the user her score upon completion.&lt;/li&gt;
-                    &lt;li&gt;The quiz can show any number of questions and any number of
-                        choices.
-                    &lt;/li&gt;
-                    &lt;li&gt;Tally the user’s score and display the final score on the last
-                        page. The last page will only show the score, so remove
-                        the last question.&lt;/li&gt;
-                    &lt;li&gt;Use an array to store all the questions. Each question, along
-                        with its choices and correct answer, should be stored in
-                        an object. The array of questions should look similar to
-                        this:
-                    &lt;/li&gt;
-                    &lt;pre&gt;// Only one question is in this array, but you will add all the questions.var allQuestions = [{question: &quot;Who is Prime Minister of the United Kingdom?&quot;, choices: [&quot;David Cameron&quot;, &quot;Gordon Brown&quot;, &quot;Winston Churchill&quot;, &quot;Tony Blair&quot;], correctAnswer:0}];&lt;/pre&gt;
-                    &lt;li&gt;Dynamically (with document.getElementById or jQuery) add the
-                        next question and remove the current question from the
-                        screen, when the user clicks the “Next” button. The Next
-                        button will be the only button to navigate this version
-                        of the quiz.&lt;/li&gt;
-                    &lt;li&gt;You can ask for help in the comments below or preferably on
-                        Stack Overflow. You are likely to get a prompt and accurate
-                        answer on Stack Overflow.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/label&gt;
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;h4 class=&quot;accordion-toggle&quot;&gt;3. Your First Project&lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
+            &lt;div class=&quot;accordion-content&quot;&gt;
+                &lt;p&gt;
+                    &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt; 
+                &lt;/p&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. At this juncture, you have learned enough to build a solid
+                    web application that is manageable. Don’t proceed any further
+                    until you can successfully build this application I describe
+                    below. As I noted earlier, if you are stuck, ask questions
+                    on Stack Overflow and reread sections of the book to properly
+                    understand the concepts.
+                    &lt;br&gt;You are building a JavaScript quiz application (you will use
+                    HTML and CSS as well) that will function as follows:
+                    &lt;ul&gt;
+                        &lt;li&gt;It is a simple quiz that has radio button choices, and
+                            it will show the user her score upon completion.&lt;/li&gt;
+                        &lt;li&gt;The quiz can show any number of questions and any number
+                            of choices.
+                        &lt;/li&gt;
+                        &lt;li&gt;Tally the user’s score and display the final score on the
+                            last page. The last page will only show the score,
+                            so remove the last question.&lt;/li&gt;
+                        &lt;li&gt;Use an array to store all the questions. Each question,
+                            along with its choices and correct answer, should be
+                            stored in an object. The array of questions should
+                            look similar to this:
+                        &lt;/li&gt;
+                        &lt;pre&gt;// Only one question is in this array, but you will add all the questions.var allQuestions = [{question: &quot;Who is Prime Minister of the United Kingdom?&quot;, choices: [&quot;David Cameron&quot;, &quot;Gordon Brown&quot;, &quot;Winston Churchill&quot;, &quot;Tony Blair&quot;], correctAnswer:0}];&lt;/pre&gt;
+                        &lt;li&gt;Dynamically (with document.getElementById or jQuery) add
+                            the next question and remove the current question from
+                            the screen, when the user clicks the “Next” button.
+                            The Next button will be the only button to navigate
+                            this version of the quiz.&lt;/li&gt;
+                        &lt;li&gt;You can ask for help in the comments below or preferably
+                            on Stack Overflow. You are likely to get a prompt and
+                            accurate answer on Stack Overflow.&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
 
-        &lt;h4 class=&quot;accordion-toggle&quot;&gt;4. Regular Expressions, Window Object, Events, jQuery &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
-        &lt;div class=&quot;accordion-content&quot;&gt;
-            &lt;p&gt;
-                &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;
-            &lt;/p&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read chapters 10, 14, 17, and 20 of JavaScript: The Definitive
-                Guide. Or read chapters 20 and 23 of Professional JavaScript for
-                Web Developers.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Remember to keep typing out all the example codes in Firefox
-                console and tweak each piece of code to experiment with it to really
-                understand how it works and what it does.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. At this point, you should be very comfortable with JavaScript,
-                probably feeling like a Jedi. You are not quite a Jedi yet, you
-                must keep using your newly acquired knowledge and skills as often
-                as possible to keep learning and improving.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Improve Your Quiz Application From Earlier:
-                &lt;ul&gt;
-                    &lt;li&gt;Add client-side data validation: make sure the user answers
-                        each question before proceeding to the next question.&lt;/li&gt;
-                    &lt;li&gt;Add a “Back” button to allow the user to go back and change
-                        her answer. The user can go back up to the first question.
-                        For the questions that the user has answered already, be
-                        sure to show the radio button selected, so that the user
-                        is not forced to answer the questions again, which she
-                        has completed.&lt;/li&gt;
-                    &lt;li&gt;Use jQuery to add animation (fade out the current question
-                        and fade in the next question).&lt;/li&gt;
-                    &lt;li&gt;Test the quiz on IE 8 and 9, and fix any bugs. This will give
-                        you a good workout.&lt;/li&gt;😉
-                    &lt;li&gt;Store the quiz questions in an external JSON file.&lt;/li&gt;
-                    &lt;li&gt;Add user authentication: allow users log in, and save their
-                        login credentials to local storage (HTML5 browser storage).&lt;/li&gt;
-                    &lt;li&gt;Use cookies to remember the user, and show a “Welcome, First
-                        Name” message when the user returns to the quiz.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/label&gt;
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;h4 class=&quot;accordion-toggle&quot;&gt;4. Regular Expressions, Window Object, Events, jQuery&lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
+            &lt;div class=&quot;accordion-content&quot;&gt;
+                &lt;p&gt;
+                    &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=733&quot;
+                    target=&quot;_blank&quot;&gt;chapters 20&lt;/a&gt;
+                    and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=807&quot;
+                    target=&quot;_blank&quot;&gt;23&lt;/a&gt; of Professional JavaScript for Web Developers.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Remember to keep typing out all the example codes in Firefox
+                    console and tweak each piece of code to experiment with it
+                    to really understand how it works and what it does.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. At this point, you should be very comfortable with JavaScript,
+                    probably feeling like a Jedi. You are not quite a Jedi yet,
+                    you must keep using your newly acquired knowledge and skills
+                    as often as possible to keep learning and improving.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Improve Your Quiz Application From Earlier:
+                    &lt;ul&gt;
+                        &lt;li&gt;Add client-side data validation: make sure the user answers
+                            each question before proceeding to the next question.&lt;/li&gt;
+                        &lt;li&gt;Add a “Back” button to allow the user to go back and change
+                            her answer. The user can go back up to the first question.
+                            For the questions that the user has answered already,
+                            be sure to show the radio button selected, so that
+                            the user is not forced to answer the questions again,
+                            which she has completed.&lt;/li&gt;
+                        &lt;li&gt;Use jQuery to add animation (fade out the current question
+                            and fade in the next question).&lt;/li&gt;
+                        &lt;li&gt;Test the quiz on IE 8 and 9, and fix any bugs. This will
+                            give you a good workout.
+                        &lt;/li&gt;😉
+                        &lt;li&gt;Store the quiz questions in an external JSON file.&lt;/li&gt;
+                        &lt;li&gt;Add user authentication: allow users log in, and save their
+                            login credentials to local storage (HTML5 browser storage).&lt;/li&gt;
+                        &lt;li&gt;Use cookies to remember the user, and show a “Welcome,
+                            First Name” message when the user returns to the quiz.&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
+
         &lt;/div&gt;
 
-        &lt;h4 class=&quot;accordion-toggle&quot;&gt;5. Classes, Inheritance, more HTML5 &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
-        &lt;div class=&quot;accordion-content&quot;&gt;
-            &lt;p&gt;
-                &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;
-            &lt;/p&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read chapters 9, 18, 21, and 22 of JavaScript the Definitive
-                Guide. Or read my blog post, OOP In JavaScript: What You NEED to
-                Know.
-                &lt;br&gt;Or read chapters 6 (only the “Object Creation” and “Inheritance”
-                sections this time) 16, 22, and 24 of Professional JavaScript for
-                Web Developers. NOTE: The reading in this section of the book is
-                the most technical reading you will encounter in this entire road
-                map. It is up to you if you want to read all of it. You should
-                at least learn the Prototype Pattern, Factory Pattern, and Prototypal
-                Inheritance. You don’t have to know all the other patterns.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Improve Your Quiz Application Even Further:
-                &lt;ul&gt;
-                    &lt;li&gt;Use Twitter Bootstrap for the entire page layout, including
-                        the quiz elements to make it look more professional. As
-                        an added bonus, use the tabs user interface component from
-                        Twitter Bootstrap and show 4 different quizzes, one on
-                        each tab.&lt;/li&gt;
-                    &lt;li&gt;Learn Handlebars.js and add Handlebars.js templating to the
-                        quiz. You should no longer have any HTML in your JavaScript
-                        code. Your quiz is getting more advanced bit by bit.&lt;/li&gt;
-                    &lt;li&gt;Keep a record of all the users who take the quiz and show each
-                        user how her score ranks amongst the scores from other
-                        quiz takers.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/label&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Later (after you have learned Backbone.js and Node.js), you
-                will use these two technologies to refactor your quiz code and
-                turn the same quiz into a sophisticated, single-page, modern web
-                application built with the latest JavaScript frameworks. And you
-                will store the users’ authentication credentials and scores in
-                a MongoDB database.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Next: Decide on a personal project to build, and start building
-                your project promptly (while everything is fresh in your mind).
-            &lt;/label&gt;
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;h4 class=&quot;accordion-toggle&quot;&gt;5. Classes, Inheritance, more HTML5 &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
+            &lt;div class=&quot;accordion-content&quot;&gt;
+                &lt;p&gt;
+                    &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read my blog post, &lt;a href=&quot;http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/&quot;
+                    target=_blank &quot;&quot;&gt;
+                    OOP In JavaScript: What You NEED to Know&lt;/a&gt;.
+                    &lt;br&gt;Or read chapters &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=215&quot;
+                    target=&quot;_blank&quot;&gt;6&lt;/a&gt; (only the “Object Creation” and “Inheritance”
+                    sections this time) &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=633&quot;
+                    target=&quot;_blank&quot;&gt;16&lt;/a&gt;,
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=773&quot;
+                    target=&quot;_blank&quot;&gt;22&lt;/a&gt;, and
+                    &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=843&quot;
+                    target=&quot;_blank&quot;&gt;24&lt;/a&gt; of Professional JavaScript
+                    for Web Developers. NOTE: The reading in this section of the
+                    book is the most technical reading you will encounter in this
+                    entire road map. It is up to you if you want to read all of
+                    it. You should at least learn the Prototype Pattern, Factory
+                    Pattern, and Prototypal Inheritance. You don’t have to know
+                    all the other patterns.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Improve Your Quiz Application Even Further:
+                    &lt;ul&gt;
+                        &lt;li&gt;Use Twitter Bootstrap for the entire page layout, including
+                            the quiz elements to make it look more professional.
+                            As an added bonus, use the tabs user interface component
+                            from Twitter Bootstrap and show 4 different quizzes,
+                            one on each tab.&lt;/li&gt;
+                        &lt;li&gt;Learn Handlebars.js and add Handlebars.js templating to
+                            the quiz. You should no longer have any HTML in your
+                            JavaScript code. Your quiz is getting more advanced
+                            bit by bit.&lt;/li&gt;
+                        &lt;li&gt;Keep a record of all the users who take the quiz and show
+                            each user how her score ranks amongst the scores from
+                            other quiz takers.&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/label&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Later (after you have learned React.js and Node.js), you
+                    will use these two technologies to refactor your quiz code
+                    and turn the same quiz into a sophisticated, single-page, modern
+                    web application built with the latest JavaScript frameworks.
+                    And you will store the users’ authentication credentials and
+                    scores in a MongoDB database.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Next: Decide on a personal project to build, and start building
+                    your project promptly (while everything is fresh in your mind).
+                &lt;/label&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
 
         &lt;!-- Advanced javascript --&gt;
-        &lt;h4 class=&quot;accordion-toggle&quot;&gt;6. Essential JavaScript Techniques &amp; Complete JavaScript Jedi Training &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
-        &lt;div class=&quot;accordion-content&quot;&gt;
-            &lt;p&gt;
-                &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;
-            &lt;/p&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read the entire &lt;a href=&quot;http://ptgmedia.pearsoncmg.com/images/9780321812186/samplepages/0321812182.pdf&quot; target=&quot;_blank&quot;&gt;Effective JavaScript&lt;/a&gt; book. This is my favorite
-                JavaScript book. Every page is packed with incredible tips and
-                insightful techniques. I kept whispering, “A Ha,” on many pages.
-                &lt;br&gt;It provides you with 68 excellent JavaScript techniques and concepts
-                that you need to know as a JavaScript developer.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. While reading the book, practice the concepts in WebStorm or
-                your browser’s console to reinforce and completely understand the
-                topics through hands-on practice. Simply trying to memorize everything
-                you have learned without practicing is a great way to ensure you
-                will forget them and never completely understand them.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Since we are trained JavaScript apprentices, we needn’t develop
-                an application while learning the advanced JavaScript techniques.
-                We only have to know and understand all the advanced techniques,
-                so we can whip them out and use them or look them up and use them,
-                when the need arises.
-                &lt;br&gt;Read the entire &lt;a href=&quot;https://digitalrepo.files.wordpress.com/2015/07/stoyan-stefanov-javascript-patterns.pdf&quot; target=&quot;_blank&quot;&gt;JavaScript Patterns&lt;/a&gt; book.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Optional: Since there are a few hours to spare this week, you
-                should have enough time to watch Douglas Crockford’s Advanced JavaScript
-                Videos. They are not too lengthy.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. With the global adoption of ES6, Read &lt;a target=&quot;_blank&quot; href=&quot;https://leanpub.com/understandinges6/read#leanpub-auto-introduction&quot;&gt;Understanding ECMAScript 6&lt;/a&gt;
-            &lt;/label&gt;
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;h4 class=&quot;accordion-toggle&quot;&gt;6. Essential JavaScript Techniques &amp; Complete JavaScript Jedi Training &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
+            &lt;div class=&quot;accordion-content&quot;&gt;
+                &lt;p&gt;
+                    &lt;a target=&quot;_blank&quot; href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web Developers_3rd_Edition.pdf&quot;&gt;Professional JavaScript For Web Developers&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read the entire &lt;a href=&quot;http://ptgmedia.pearsoncmg.com/images/9780321812186/samplepages/0321812182.pdf&quot;
+                    target=&quot;_blank&quot;&gt;Effective JavaScript&lt;/a&gt; book. This is my favorite
+                    JavaScript book. Every page is packed with incredible tips
+                    and insightful techniques. I kept whispering, “A Ha,” on many
+                    pages.
+                    &lt;br&gt;It provides you with 68 excellent JavaScript techniques and
+                    concepts that you need to know as a JavaScript developer.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. While reading the book, practice the concepts in WebStorm
+                    or your browser’s console to reinforce and completely understand
+                    the topics through hands-on practice. Simply trying to memorize
+                    everything you have learned without practicing is a great way
+                    to ensure you will forget them and never completely understand
+                    them.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Since we are trained JavaScript apprentices, we needn’t
+                    develop an application while learning the advanced JavaScript
+                    techniques. We only have to know and understand all the advanced
+                    techniques, so we can whip them out and use them or look them
+                    up and use them, when the need arises.
+                    &lt;br&gt;Read the entire &lt;a href=&quot;https://digitalrepo.files.wordpress.com/2015/07/stoyan-stefanov-javascript-patterns.pdf&quot;
+                    target=&quot;_blank&quot;&gt;JavaScript Patterns&lt;/a&gt; book.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Optional: Since there are a few hours to spare this week,
+                    you should have enough time to watch Douglas Crockford’s Advanced
+                    JavaScript Videos. They are not too lengthy.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. With the global adoption of ES6, Read &lt;a target=&quot;_blank&quot;
+                    href=&quot;https://leanpub.com/understandinges6/read#leanpub-auto-introduction&quot;&gt;Understanding ECMAScript 6&lt;/a&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
         &lt;br&gt;
 
         &lt;h2&gt;Node&lt;/h2&gt;
-        &lt;!-- Advanced javascript --&gt;
-        &lt;h4 class=&quot;accordion-toggle&quot;&gt;1. Intro to node.js &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
-        &lt;div class=&quot;accordion-content&quot;&gt;
-            &lt;p&gt;
-                &lt;a target=&quot;_target&quot; href=&quot;http://www.baboon.ir/uploads/2015/06/The.Node_.Beginner.Book_.pdf&quot;&gt;The Node Beginner Book&lt;/a&gt; 
+
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;h4 class=&quot;accordion-toggle&quot;&gt;1. Intro to node.js &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
+            &lt;div class=&quot;accordion-content&quot;&gt;
+                &lt;p&gt;
+                    &lt;a target=&quot;_target&quot; href=&quot;http://www.baboon.ir/uploads/2015/06/The.Node_.Beginner.Book_.pdf&quot;&gt;The Node Beginner Book&lt;/a&gt; 
+                    &lt;br&gt;
+                    &lt;a target=&quot;_target&quot; href=&quot;http://htchttp.s3.amazonaws.com/books/professional_node.js.pdf&quot;&gt;Professional Node.js: Building Javascript Based Scalable Software&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read chapter 1 of Professional Node.js and follow the instructions
+                    on how to setup Node.js on your development computer.
+                &lt;/label&gt;
                 &lt;br&gt;
-                &lt;a target=&quot;_target&quot; href=&quot;http://htchttp.s3.amazonaws.com/books/professional_node.js.pdf&quot;&gt;Professional Node.js: Building Javascript Based Scalable Software&lt;/a&gt;
-            &lt;/p&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read chapter 1 of Professional Node.js and follow the instructions
-                on how to setup Node.js on your development computer.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read the entire Node Beginner Book. As I noted above, it is
-                a tiny book; basically a tutorial. This tutorial will give you
-                a gentle introduction into Node.js and a very basic understanding
-                of what Node.js development involves. It is good to start with
-                this before you read the rest of the Professional Node.js book.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Read chapter 2 of Professional Node.js.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Read the CommonJS section of the article at the link below.
-                You need not read the entire article. Here is a &lt;a href=&quot;http://pages.citebite.com/i9e9e4d1yxip&quot;
-                class=&quot;external&quot; target=&quot;_blank&quot;&gt;link to just the CommonJS section&lt;/a&gt;
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. Read chapter 3 to 6 of Professional Node.js.
-            &lt;/label&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read the entire Node Beginner Book. As I noted above, it
+                    is a tiny book; basically a tutorial. This tutorial will give
+                    you a gentle introduction into Node.js and a very basic understanding
+                    of what Node.js development involves. It is good to start with
+                    this before you read the rest of the Professional Node.js book.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. Read chapter 2 of Professional Node.js.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Read the CommonJS section of the article at the link below.
+                    You need not read the entire article. Here is a &lt;a href=&quot;http://pages.citebite.com/i9e9e4d1yxip&quot;
+                    class=&quot;external&quot; target=&quot;_blank&quot;&gt;link to just the CommonJS section&lt;/a&gt;
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. Read chapter 3 to 6 of Professional Node.js.
+                &lt;/label&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
 
-        &lt;h4 class=&quot;accordion-toggle&quot;&gt;2. Advanced topics in node.js &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
-        &lt;div class=&quot;accordion-content&quot;&gt;
-            &lt;p&gt;
-                &lt;a target=&quot;_target&quot; href=&quot;http://www.baboon.ir/uploads/2015/06/The.Node_.Beginner.Book_.pdf&quot;&gt;The Node Beginner Book&lt;/a&gt; 
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;h4 class=&quot;accordion-toggle&quot;&gt;2. Advanced topics in node.js &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
+            &lt;div class=&quot;accordion-content&quot;&gt;
+                &lt;p&gt;
+                    &lt;a target=&quot;_target&quot; href=&quot;http://www.baboon.ir/uploads/2015/06/The.Node_.Beginner.Book_.pdf&quot;&gt;The Node Beginner Book&lt;/a&gt; 
+                    &lt;br&gt;
+                    &lt;a target=&quot;_target&quot; href=&quot;http://htchttp.s3.amazonaws.com/books/professional_node.js.pdf&quot;&gt;Professional Node.js: Building Javascript Based Scalable Software&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read the entire Part III section (chapter 7 to 15) of Professional
+                    Node.js.
+                &lt;/label&gt;
                 &lt;br&gt;
-                &lt;a target=&quot;_target&quot; href=&quot;http://htchttp.s3.amazonaws.com/books/professional_node.js.pdf&quot;&gt;Professional Node.js: Building Javascript Based Scalable Software&lt;/a&gt;
-            &lt;/p&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;1. Read the entire Part III section (chapter 7 to 15) of Professional
-                Node.js.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read chapter 17 to 22 of Professional Node.js.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. And finish up by reading the last 3 chapters of Professional
-                Node.js.
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Learn React &lt;a target=&quot;_blank&quot; href=&quot;http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/&quot;&gt;http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/&lt;/a&gt;
-            &lt;/label&gt;
-            &lt;br&gt;
-            &lt;label class=&quot;accordion-label&quot;&gt;
-                &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. Learn &lt;a target=&quot;_blank&quot; href=&quot;http://openmymind.net/mongodb.pdf&quot;&gt;MongoDB&lt;/a&gt; or
-                similar no sql database.
-            &lt;/label&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read chapter 17 to 22 of Professional Node.js.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;3. And finish up by reading the last 3 chapters of Professional
+                    Node.js.
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;4. Learn React &lt;a target=&quot;_blank&quot; href=&quot;http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/&quot;&gt;http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/&lt;/a&gt;
+                &lt;/label&gt;
+                &lt;br&gt;
+                &lt;label class=&quot;accordion-label&quot;&gt;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;5. Learn &lt;a target=&quot;_blank&quot; href=&quot;http://openmymind.net/mongodb.pdf&quot;&gt;MongoDB&lt;/a&gt; or
+                    similar no sql database.
+                &lt;/label&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
         &lt;br&gt;
 

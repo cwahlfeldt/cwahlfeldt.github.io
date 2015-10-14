@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dismantle Tour
-image: ../../../../../images/dismantle_tour.png
+image: http://cwahlfeldt.github.io/images/dismantle_tour.png
 showImage: true
 summary: Tour flyer for We Must Dismantle All This!
 publish: true

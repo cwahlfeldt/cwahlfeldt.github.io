@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chris Wahlfeldt</title>
-    <description>This is my personal site and I use it to post my projects and write about things that include: stuff im working on, videogames, 3D stuff, the &#39;interweb&#39;, and how to make shit!</description>
+    <description>This is my personal site and I use it to post projects and write about things that include: stuff im working on, videogames, 3D stuff, the &#39;interweb&#39;, and how to make shit!</description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
     

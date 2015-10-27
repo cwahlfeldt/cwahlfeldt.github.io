@@ -197,8 +197,8 @@
                 &lt;/label&gt;
                 &lt;br&gt;
                 &lt;label class=&quot;accordion-label&quot;&gt;
-                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=67&quot;
-                    target=&quot;_blank&quot;&gt;chapters 5&lt;/a&gt; and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=145&quot;
+                    &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;2. Read &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=145&quot;
+                    target=&quot;_blank&quot;&gt;chapters 5&lt;/a&gt; and &lt;a href=&quot;http://cwahlfeldt.github.io/Professional_JavaScript_for_Web%20Developers_3rd_Edition.pdf#page=259&quot;
                     target=&quot;_blank&quot;&gt;7&lt;/a&gt; of Professional JavaScript for Web Developers
                 &lt;/label&gt;
                 &lt;br&gt;
@@ -523,7 +523,7 @@
         &lt;/div&gt;
         &lt;br&gt;
 
-        &lt;h2&gt;Meteor&lt;/h2&gt;
+        &lt;!--&lt;h2&gt;Meteor&lt;/h2&gt;
         &lt;h4 class=&quot;accordion-toggle&quot;&gt;1. Coming Soon! &lt;div class=&quot;tri&quot;&gt;&lt;/div&gt;&lt;/h4&gt;
         &lt;div class=&quot;accordion-content&quot;&gt;
             &lt;p&gt;
@@ -549,7 +549,7 @@
                 similar no sql database.
             &lt;/label&gt;
         &lt;/div&gt;
-        &lt;br&gt;
+        &lt;br&gt;--&gt;
 
         &lt;br&gt;
         &lt;hr&gt;

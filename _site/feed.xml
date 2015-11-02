@@ -390,7 +390,8 @@
                     and turn the same quiz into a sophisticated, single-page, modern
                     web application built with the latest JavaScript frameworks.
                     And you will store the users’ authentication credentials and
-                    scores in a MongoDB database.
+                    scores in a MongoDB database. Until then work on a 
+                    &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript&quot; target=&quot;_blank&quot;&gt;game in pure javascript&lt;/a&gt;
                 &lt;/label&gt;
                 &lt;br&gt;
                 &lt;label class=&quot;accordion-label&quot;&gt;

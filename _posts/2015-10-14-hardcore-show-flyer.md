@@ -4,7 +4,7 @@ title: Punk Show
 image: http://cwahlfeldt.github.io/images/punk_show.jpg
 showImage: true
 summary: Made a flyer for an upcoming show.
-publish: true
+publish: false
 categories: art
 ---
 

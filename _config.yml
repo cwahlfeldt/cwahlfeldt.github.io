@@ -1,3 +1,6 @@
+# Gems
+gems: [jekyll-paginate]
+
 # Site settings
 title:       Chris Wahlfeldt
 email:       chriswahlfeldt@gmail.com

@@ -10,8 +10,7 @@
             1000
         );
 
-        var renderer = new THREE.WebGLRenderer(
-        {
+        var renderer = new THREE.WebGLRenderer({
             alpha: true,
             antialias: true
         });
@@ -25,8 +24,7 @@
 
         camera.position.z = 5;
 
-        var render = function()
-        {
+        var render = function() {
             requestAnimationFrame(render);
 
             cube.rotation.x += 0.02;

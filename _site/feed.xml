@@ -8,7 +8,7 @@
     
       <item>
         <title>Punk Show</title>
-        <description>&lt;p&gt;Made a flyer for the show next Tuesday. &lt;/p&gt;
+        <description>&lt;p&gt;Made a flyer for the show next Tuesday.&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Oct 2015 00:00:00 -0500</pubDate>
         <link>//art/2015/10/14/hardcore-show-flyer/</link>
@@ -570,17 +570,14 @@
     
       <item>
         <title>3D Art Dump</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://chriswahlfeldt.com/wp-content/uploads/photo-gallery/pipeStill.png&quot; alt=&quot;&quot;&gt;
-&lt;img src=&quot;http://chriswahlfeldt.com/wp-content/uploads/photo-gallery/guitar.jpg&quot; alt=&quot;&quot;&gt;
-&lt;img src=&quot;http://chriswahlfeldt.com/wp-content/uploads/photo-gallery/phonebooth.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://chriswahlfeldt.com/wp-content/uploads/photo-gallery/pipeStill.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://chriswahlfeldt.com/wp-content/uploads/photo-gallery/guitar.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://chriswahlfeldt.com/wp-content/uploads/photo-gallery/phonebooth.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/T0mmK15vwy8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/BZdwyKPf59c&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/ywh7A6FvuNU&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/7ue4U46brsc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/T0mmK15vwy8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/BZdwyKPf59c&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/ywh7A6FvuNU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;565&quot; src=&quot;https://www.youtube.com/embed/7ue4U46brsc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sun, 06 Sep 2015 00:00:00 -0500</pubDate>
         <link>//3d-art-dump/</link>
@@ -602,20 +599,18 @@
 React/React Native frontend, powered by websockets and an interchangable nodejs backend. Sounds fun right!&lt;/p&gt;
 
 &lt;h3 id=&quot;frontend&quot;&gt;frontend:&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;React&lt;/li&gt;
-&lt;li&gt;Gulp&lt;/li&gt;
-&lt;li&gt;Stylus&lt;/li&gt;
-&lt;li&gt;bootstrap&lt;/li&gt;
+  &lt;li&gt;React&lt;/li&gt;
+  &lt;li&gt;Gulp&lt;/li&gt;
+  &lt;li&gt;Stylus&lt;/li&gt;
+  &lt;li&gt;bootstrap&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;backend&quot;&gt;backend:&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;redis&lt;/li&gt;
-&lt;li&gt;nodejs, express or koa?&lt;/li&gt;
-&lt;li&gt;socket.io&lt;/li&gt;
+  &lt;li&gt;redis&lt;/li&gt;
+  &lt;li&gt;nodejs, express or koa?&lt;/li&gt;
+  &lt;li&gt;socket.io&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;With React, especially React Native, we can create full blown database driven IOS apps (and soon android) in Javascript. Thats one of the main goals of this project.
@@ -638,7 +633,7 @@ and prevail! Easy as dat.&lt;/p&gt;
 
 &lt;p&gt;Check this out.&lt;/p&gt;
 
-&lt;iframe width=&quot;100%&quot; height=&quot;400px&quot; src=&quot;https://www.youtube.com/embed/qqABuWfqnD4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;400px&quot; src=&quot;https://www.youtube.com/embed/qqABuWfqnD4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Remember though throw your shield up while you charge your sword and repeat.&lt;/p&gt;
 </description>
@@ -661,6 +656,7 @@ and prevail! Easy as dat.&lt;/p&gt;
         <description>&lt;p&gt;Welcome! This is my new and improved site. I am slowly but surely getting my portfolio together and writing about things.
 I am using jekyll as a base to produce my static website. So far so good. Im currently working on a few side projects so expect them to be here. 
 I will also be posting dorky codeing posts and tutorials so that I can hopefully spread some knowledge into the internet!&lt;/p&gt;
+
 </description>
         <pubDate>Sun, 31 May 2015 00:00:00 -0500</pubDate>
         <link>//general/2015/05/31/welcome/</link>

@@ -22,3 +22,6 @@ Babe - have an amazing day because you deserve it. You are sooo hardworking, int
 <img src="../images/birthday_3-24-2016/birthday-dog.jpg" alt="">
 
 Now for the presents! Check your email for a Lush gift card, the engagment ring is happening soon (I SWEAR!), and you get to pick out one awesome item for the house and I'll buy it - within reason of course! (rug(s), decorations, yard stuff...?)
+<br>
+
+<div class="center" style="margin-top: -20px;"><span style="font-size: 12px;">P.S. I fucking love you!</span></div>

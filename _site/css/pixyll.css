@@ -1335,6 +1335,13 @@ li {
 .hide {
   display: none; }
 
+.blank img {
+  margin: 0 auto;
+  max-width: 370px; }
+
+.blank.site-wrap:after {
+  height: 0px !important; }
+
 /* Solarized Dark
 
 For use with Jekyll and Pygments

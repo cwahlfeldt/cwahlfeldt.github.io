@@ -816,7 +816,7 @@ img {
   margin-top: 20px; }
 
 .projects img {
-  width: 94%; }
+  max-width: 465px; }
 
 .crop {
   max-height: 300px;

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import { placeholder } from '../common';
 
-const Work = () => (
+const WorkPage = () => (
   <section style={{maxWidth: 1920}} className="work h-100 vw-100">
     <h1 className="avenir ttu pt4 near-black mb0 ph4 fw6">Work</h1>
     <h5 className="avenir fw4 pb3 ph4 f7">*Work done by McKenzie Wagner, Adayana, and/or Chris Wahlfeldt.</h5>
@@ -136,4 +136,4 @@ const Work = () => (
   </section>
 );
 
-export default Work;
+export default WorkPage;

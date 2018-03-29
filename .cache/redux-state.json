@@ -334,6 +334,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.11.1"
           }
@@ -356,12 +360,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-29T14:05:17.524Z",
+      "buildTime": "2018-03-29T14:41:52.717Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9c7361aba4e3dd269908c3543e2004dd",
+        "contentDigest": "8ef53e00b1cf721f5669df4b7eb56ec3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -382,7 +386,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0fabb549af29be64d083f821f56ff462",
+        "contentDigest": "fe4e1dd5cefabee96f42b762bd37a2fc",
         "owner": "internal-data-bridge"
       }
     },
@@ -402,7 +406,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fe52f641d9cf26cbed0949500a20008d",
+        "contentDigest": "178ee14c23102f70cc95d27483d3c497",
         "owner": "internal-data-bridge"
       }
     },
@@ -422,7 +426,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4bbfbd59f26985664abe7d5f846808be",
+        "contentDigest": "6c55f5ba27d8b2ce8f0fc0308f78e402",
         "owner": "internal-data-bridge"
       }
     },
@@ -442,21 +446,17 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4cbc2a73c766c0cf964330c6c8509b5c",
+        "contentDigest": "c4f36ac12ab56e4b4aa05ba454590c66",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a104321f1ed19a759d0aa4e3b8edbc3d"
+    "PLUGINS_HASH": "d16abd233c7abd4ca347564f8feb22a9"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }

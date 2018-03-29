@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/cwahlfeldt/Apps/cwahlfeldt.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/cwahlfeldt/Apps/cwahlfeldt.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "fcc40838a79aadddc5e920259c0a2352",
         "owner": "internal-data-bridge"
       }
     },
@@ -354,14 +363,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-29T00:32:13.943Z",
+      "buildTime": "2018-03-29T01:25:53.780Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "aeec6b40c66790aebb2dc41b2b4f3d97",
+        "contentDigest": "7c3d3467d7699d8d70cba1d8a188252f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -382,7 +393,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ab6b111b119f2454e658516f0ca3e075",
+        "contentDigest": "8a9e0c7616964f801b1d3a073bf2d622",
         "owner": "internal-data-bridge"
       }
     },
@@ -402,7 +413,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "839042a27b79e793ff3ae99f7ac112fc",
+        "contentDigest": "de634f8444f7296176dedfcdd4afa743",
         "owner": "internal-data-bridge"
       }
     },
@@ -422,7 +433,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d4a3c06e0294e46e60376b11612e02e5",
+        "contentDigest": "4eb94f8ee35fe05757379745fa849e06",
         "owner": "internal-data-bridge"
       }
     },
@@ -442,7 +453,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "53403167e97699201bfa2629c19d60ae",
+        "contentDigest": "43de0a041167b55ca9d4f89f11e1f51a",
         "owner": "internal-data-bridge"
       }
     }

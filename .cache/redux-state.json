@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/cwahlfeldt/Apps/cwahlfeldt.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/cwahlfeldt/Apps/cwahlfeldt.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d2d4a4b98e329c7676c1a1cf46d201c0",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -337,6 +328,10 @@
             "version": "^2.0.8"
           },
           {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
           }
@@ -363,16 +358,14 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-29T16:52:40.406Z",
+      "buildTime": "2018-03-30T02:13:27.080Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cd654b1b3210c4b83f61931991942bf7",
+        "contentDigest": "a86a9680eb1927887716a18b996074aa",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -393,7 +386,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "997d34e0f20007a6f260a809949d9945",
+        "contentDigest": "2ff962e8f141c739b1256b820f0b1ae3",
         "owner": "internal-data-bridge"
       }
     },
@@ -413,7 +406,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cf1ff5c01d1d6b805882b88869c7b5ee",
+        "contentDigest": "e200bc9d87fd5f8a7e714e43c140b606",
         "owner": "internal-data-bridge"
       }
     },
@@ -433,7 +426,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "23b45733dc137f5e67f60c88dd3e779d",
+        "contentDigest": "dc75b1ccf306b7d34375c7d9efe94bcc",
         "owner": "internal-data-bridge"
       }
     },
@@ -453,21 +446,17 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "73253e68aeb64b7d84743c3d2204c456",
+        "contentDigest": "b314f63c24d24a59bb7418bb7f5f43e5",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a104321f1ed19a759d0aa4e3b8edbc3d"
+    "PLUGINS_HASH": "f71aa47e603bba1affcede38518faef7"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }

@@ -8,13 +8,11 @@ import './index.css'
 
 const TemplateWrapper = ({ children }) => (
   <main>
-    <Helmet
-      title="Chris Wahlfeldt"
-      meta={[
-        { name: 'description', content: 'Chris Wahlfeldts Personal Website' },
-        { name: 'keywords', content: 'web, development, web development, HTML, CSS, Javascript, html, css, javascript, design, web design' },
-      ]}
-    />
+    <Helmet>
+    <title>🤘</title>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="/dom.js"></script>
+    </Helmet>
     <section className={``}>
       { children() }
     </section>

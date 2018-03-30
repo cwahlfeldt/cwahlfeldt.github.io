@@ -2,14 +2,19 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const IndexPage = () => (
-  <section className={`flex flex-column justify-center items-center vh-100 vw-100`}>
-    <h1 className="ttu tracked avenir near-black f3 f2-m f1-ns mb0 pa3 fw6">
-      Chris <span className="last-name ba bw2 pa3 b--black-80 black fw3">Wahlfeldt</span>
-    </h1>
+  <section className={`ph3 tl flex flex-column items-center justify-center center vh-100 vw-100`}>
+    <div>
+      <h1 className="tl ttu tracked avenir white f1-ns f2 mb0 fw6 title tilt">
+        Chris
+      </h1>
+      <h1 className="tl ttu tracked avenir white f1-ns f2 pl1 mb0 fw6 title tilt">
+        Wahlfeldt
+      </h1>
+    </div>
     <p
       style={{lineHeight: 1.9, maxWidth: '35rem'}}
       className={`
-         avenir w-100 ph4 ph5-ns mt4 pt2
+         avenir w-100 pt4 text
       `}
     >
       Hi, I'm Chris. I'm a web developer with a penchant for design. I take pride in my ability to adapt to any project and feel comfortable working on both the frontend and backend. When I'm not working I'm writing music with my band, hanging out with my family or playing video games.<br /><br />

@@ -1,8 +1,13 @@
 body {
-background-color: #f3e6e8;
-background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
-background-color: #ffffff;
-background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  /*
+  background-color: #f3e6e8;
+  background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  background-color: #d3d3d3;
+  background-image: linear-gradient(315deg, #d3d3d3 0%, #7bed9f 74%);
+  */
+  background-color: #fff;
 }
 
 .last-name {
@@ -19,6 +24,136 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   }
 }
 
+.text {
+  margin-top: 10px;
+}
+
+.tilt {
+  -webkit-transform: rotate(-3deg) !important;
+  transform: rotate(-3deg) !important;
+}
+
+.title {
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 14vw;
+  }
+}
+
+.tilt-more {
+  -webkit-transform: rotate(-9deg);
+  transform: rotate(-6deg);
+}
+
 .visible {
   visibility: visible;
+}
+
+.title {
+  font-family: "brandon-grotesque", sans-serif;
+  font-family: "tablet-gothic-wide", sans-serif;
+  text-shadow:
+    0 .005em orange,
+    .005em 0 orange,
+    .005em .010em orange,
+    .010em .005em orange,
+    .010em .015em orange,
+    .015em .010em orange,
+    .015em .020em orange,
+    .020em .015em orange,
+    .020em .025em orange,
+    .025em .020em orange,
+    .025em .030em orange,
+    .030em .025em orange,
+    .030em .035em orange,
+    .035em .030em orange,
+    .035em .040em orange,
+    .040em .035em orange,
+    .040em .045em orange,
+    .045em .040em orange,
+    .045em .050em orange,
+    .050em .045em orange,
+    .050em .055em orange,
+    .055em .050em orange,
+    .055em .060em orange,
+    .060em .055em orange,
+    .060em .065em orange,
+    .065em .060em orange,
+    .065em .070em orange,
+    .070em .065em orange,
+    .070em .075em orange,
+    .075em .070em orange,
+    .075em .080em orange,
+    .080em .075em orange,
+    .080em .085em orange,
+    .085em .080em orange,
+    .085em .090em orange,
+    .090em .085em orange,
+    .090em .095em orange,
+    .095em .090em orange,
+    .095em .100em orange,
+    .100em .095em orange,
+    .100em .105em orange,
+    .105em .100em orange,
+    .105em .110em orange,
+    .110em .105em orange;
+
+  -webkit-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+}
+
+.title2 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-family: "tablet-gothic-wide", sans-serif;
+  text-shadow:
+    0 .005em orange,
+    .005em 0 orange,
+    .005em .010em orange,
+    .010em .005em orange,
+    .010em .015em orange,
+    .015em .010em orange,
+    .015em .020em orange,
+    .020em .015em orange,
+    .020em .025em orange,
+    .025em .020em orange,
+    .025em .030em orange,
+    .030em .025em orange,
+    .030em .035em orange,
+    .035em .030em orange,
+    .035em .040em orange,
+    .040em .035em orange,
+    .040em .045em orange,
+    .045em .040em orange,
+    .045em .050em orange,
+    .050em .045em orange,
+    .050em .055em orange,
+    .055em .050em orange,
+    .055em .060em orange,
+    .060em .055em orange,
+    .060em .065em orange,
+    .065em .060em orange,
+    .065em .070em orange,
+    .070em .065em orange,
+    .070em .075em orange,
+    .075em .070em orange,
+    .075em .080em orange,
+    .080em .075em orange,
+    .080em .085em orange,
+    .085em .080em orange,
+    .085em .090em orange,
+    .090em .085em orange,
+    .090em .095em orange,
+    .095em .090em orange,
+    .095em .100em orange,
+    .100em .095em orange,
+    .100em .105em orange,
+    .105em .100em orange,
+    .105em .110em orange,
+    .110em .105em orange;
+
+  -webkit-transform: rotate(-9deg);
+  transform: rotate(-9deg);
 }

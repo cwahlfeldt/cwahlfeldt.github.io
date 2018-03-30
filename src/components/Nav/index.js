@@ -13,7 +13,7 @@ const Nav = () => (
       <Link
         to="/"
         className={`
-          ttu tracked
+          ttu tracked title
           link near-black dim
         `}
       >

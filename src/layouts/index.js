@@ -9,9 +9,10 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <main>
     <Helmet>
-    <title>🤘</title>
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script src="/dom.js"></script>
+      <title>🤘</title>
+      <link rel="stylesheet" href="https://use.typekit.net/ksq0sev.css" />
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+      <script src="/dom.js"></script>
     </Helmet>
     <section className={``}>
       { children() }

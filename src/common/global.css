@@ -7,7 +7,7 @@ body {
   background-color: #d3d3d3;
   background-image: linear-gradient(315deg, #d3d3d3 0%, #7bed9f 74%);
   */
-  background-color: #fff;
+  background-color: #eee;
 }
 
 .last-name {
@@ -24,22 +24,27 @@ body {
   }
 }
 
+.item p {
+  letter-spacing: 2px;
+}
+
 .text {
   margin-top: 10px;
 }
 
 .tilt {
-  -webkit-transform: rotate(-3deg) !important;
-  transform: rotate(-3deg) !important;
+  -webkit-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
 }
 
 .title {
   font-size: 100px;
+  color: #111 !important;
 }
 
 @media only screen and (max-width: 767px) {
   .title {
-    font-size: 14vw;
+    font-size: 13vw;
   }
 }
 
@@ -103,6 +108,7 @@ body {
 
   -webkit-transform: rotate(-9deg);
   transform: rotate(-9deg);
+  letter-spacing: 3px;
 }
 
 .title2 {

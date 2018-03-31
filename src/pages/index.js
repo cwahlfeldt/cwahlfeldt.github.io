@@ -98,7 +98,7 @@ const IndexPage = () => (
                avenir w-100 ph3-l order-1
             `}
           >
-            <strong><span className="f3-ns f4">Queue</span><br /><span className="near-black fw4">Used by Watson's and Blackdog</span></strong>
+            <strong><span className="f3-ns f4">Queue</span><br /><span className="near-black fw4">Used by Watson's and Blackdog in Champaign IL.</span></strong>
           </p>
         </div>
       </div>

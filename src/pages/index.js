@@ -4,7 +4,7 @@ import { placeholder } from '../common';
 
 const IndexPage = () => (
   <section style={{maxWidth: 1920}} className="work h-100 vw-100">
-    <div className="ph3 w-100 mb4-ns mt5-ns mt4">
+    <div className="ph3-m ph5-ns ph3 w-100 mb4-ns mt5-ns mt4">
       <h1 className="tl ttu avenir white f1-ns f2-ns f3 mb0 fw6 title tilt">
         Chris
       </h1>
@@ -15,18 +15,18 @@ const IndexPage = () => (
     <p
       style={{lineHeight: 1.9, maxWidth: '35rem'}}
       className={`
-         avenir w-100 pt4 text ph4 mb4-ns mb3
+         avenir w-100 pt4 text mb4-ns mb3 ph4-m ph5-ns ph4
       `}
     >
       Hi, I'm Chris. I'm a web developer with a penchant for design. I take pride in my ability to adapt to any project and feel comfortable working on both the frontend and backend. When I'm not working I'm writing music with my band, hanging out with my family or playing video games.<br /><br />
       Keep scrolling to check out my work. If you are interested in working together, or just want to say hey, drop me a line at <a className="dim green" href="mailto:chriswahlfeldt@gmail.com">chriswahlfeldt@gmail</a>.
     </p>
     <h5 className="avenir fw4 pb3 ph4 f7"></h5>
-    <div className="flex flex-column w-100 ph4-ns ph3 pt2">
+    <div className="flex flex-column w-100 ph4-m ph5-ns ph4 ph3 pt2">
 
       {/* even */}
       <div className="mb3 pb2 item flex flex-row-ns flex-column flex-column-m items-center justify-center">
-        <div className="images pr3-ns pl0-ns ph3 w-50-ns w-100 w-100-m order-0">
+        <div className="images pr3-ns pl0-ns w-50-ns w-100 w-100-m order-0">
           <img src={'/adams.png'} className="fl w-50 mw-50 mb0" />
           <img src={'/windsor.png'} className="fl w-50 mw-50 mb0" />
           <img src={'/steeplchase.png'} className="fl w-50 mw-50 mb0" />

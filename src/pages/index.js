@@ -5,10 +5,10 @@ import { placeholder } from '../common';
 const IndexPage = () => (
   <section style={{maxWidth: 1920}} className="work h-100 vw-100">
     <div className="ph3-m ph5-ns ph3 w-100 mb4-ns mt5-ns mt4">
-      <h1 className="tl ttu avenir white f1-ns f2-ns f3 mb0 fw6 title tilt">
+      <h1 className="tl ttu avenir dark-blue f1-ns f2-ns f3-ns f4 mb0 fw6 title tilt">
         Chris
       </h1>
-      <h1 className="tl ttu avenir white f1-ns f2-ns f3 pl1 mb0 fw6 title tilt">
+      <h1 className="tl ttu avenir dark-blue f1-ns f2-ns f3-ns f4 pl1 mb0 fw6 title tilt">
         Wahlfeldt
       </h1>
     </div>
@@ -18,140 +18,138 @@ const IndexPage = () => (
          avenir w-100 pt4 text mb4-ns mb3 ph4-m ph5-ns ph4
       `}
     >
-      Hi, I'm Chris. I'm a web developer with a penchant for design. I take pride in my ability to adapt to any project and feel comfortable working on both the frontend and backend. When I'm not working I'm writing music with my band, hanging out with my family or playing video games.<br /><br />
-      Keep scrolling to check out my work. If you are interested in working together, or just want to say hey, drop me a line at <a className="dim green" href="mailto:chriswahlfeldt@gmail.com">chriswahlfeldt@gmail</a>.
+      Hey, I'm Chris. I'm a web developer with a penchant for design and programming. I take pride in my ability to adapt to any project and feel comfortable working on both the frontend and backend. When I'm not working I'm writing music with my band, hanging out with my family or playing video games.<br /><br />
+      Keep scrolling to check out my work. If you are interested in working together, or just want to say hey, drop me a line at <a className="blue dim" href="mailto:chriswahlfeldt@gmail.com">chriswahlfeldt@gmail</a>.
     </p>
     <h5 className="avenir fw4 pb3 ph4 f7"></h5>
     <div className="flex flex-column w-100 ph4-m ph5-ns ph4 ph3 pt2">
 
       {/* even */}
       <div className="mb3 pb2 item flex flex-row-ns flex-column flex-column-m items-center justify-center">
-        <div className="images pr3-ns pl0-ns w-50-ns w-100 w-100-m order-0">
-          <img src={'/adams.png'} className="fl w-50 mw-50 mb0" />
-          <img src={'/windsor.png'} className="fl w-50 mw-50 mb0" />
-          <img src={'/steeplchase.png'} className="fl w-50 mw-50 mb0" />
-          <img src={'/gentry.png'} className="fl w-50 mw-50 mb0" />
+        <div className="images pr3-ns pl0-ns w-50-ns w-100 w-100-m order-0 mb4 mb0-ns">
+          <a href="https://www.adamsvillage.com/" target="_blank" className="link dim"><img src={'/adams.png'} className="fl w-50 mw-50 mb0" /></a>
+          <a className="link dim" href="https://www.windsorwest.com/" target="_blank"><img src={'/windsor.png'} className="fl w-50 mw-50 mb0" /></a>
+          <a className="link dim" href="https://www.liveatsteeplechaseapartments.com/" target="_blank"><img src={'/steeplchase.png'} className="fl w-50 mw-50 mb0" /></a>
+          <a className="link dim" href="https://www.gentrysquareapartments.com/" target="_blank"><img src={'/gentry.png'} className="fl w-50 mw-50 mb0" /></a>
         </div>
         <div className="w-50-ns w-100 w-100-m">
           <p
             className={`
-               lh-copy avenir w-100 ph5-l order-1 pt5-ns
+               lh-copy avenir w-100 ph3-l order-1
             `}
           >
-            <strong><Link className="dim gold  f2-ns f3">Regency Multifamily<br />Properties</Link></strong>
+            <strong><a className="link dim blue f3-ns f4" href="https://www.regency-multifamily.com/communities/" target="_blank">Regency Multifamily Properties</a></strong>
           </p>
         </div>
       </div>
 
       {/* odd */}
       <div className="item flex flex-row-ns flex-column flex-column-m items-center">
-        <img src={'/iss.png'} className="pr3-ns pl0-ns ph3 w-50-ns w-100 w-100-m order-1-ns order-0-m order-0" />
+        <img src={'/regency-corporate.png'} className="pr3-ns pl0-ns ph3-ns w-50-ns w-100 w-100-m order-1-ns order-0-m order-0" />
         <div className="w-50-ns w-100 w-100-m">
           <p
             style={{lineHeight: 1.9}}
             className={`
-               avenir w-100 ph5-l order-0-ns order-1-m order-1 tr-ns
+               avenir w-100 ph3-l order-0-ns order-1-m order-1 tr-ns
             `}
           >
-            <strong><Link className="dim gold  f2-ns f3">ISS</Link></strong>
+            <strong><a className="link dim blue f3-ns f4" href="https://www.regency-multifamily.com/" target="_blank">Regency Multifamily</a></strong>
           </p>
         </div>
       </div>
 
       {/* even */}
       <div className="item flex flex-row-ns flex-column flex-column-m items-center">
-        <img src={'/villa.png'} className="pr3-ns pl0-ns ph3 w-50-ns w-100 w-100-m order-0" />
+        <img src={'/villa.png'} className="pr3-ns pl0-ns ph3-ns w-50-ns w-100 w-100-m order-0" />
         <div className="w-50-ns w-100 w-100-m">
           <p
             style={{lineHeight: 1.9}}
             className={`
-               avenir w-100 ph5-l order-1
+               avenir w-100 ph3-l order-1
             `}
           >
-            <strong><Link className="dim gold  f2-ns f3">Villa</Link></strong>
+            <strong><a className="link dim blue f3-ns f4" href="http://www.livingatvilla.com/" target="_blank">Villa</a></strong>
           </p>
         </div>
       </div>
 
       {/* odd */}
       <div className="item flex flex-row-ns flex-column flex-column-m items-center">
-        <img src={'/regency-corporate.png'} className="pr3-ns pl0-ns ph3 w-50-ns w-100 w-100-m order-1-ns order-0-m order-0" />
+        <img src={'/iss.png'} className="pr3-ns pl0-ns ph3-ns w-50-ns w-100 w-100-m order-1-ns order-0-m order-0" />
         <div className="w-50-ns w-100 w-100-m">
           <p
             style={{lineHeight: 1.9}}
             className={`
-               avenir w-100 ph5-l order-0-ns order-1-m order-1 tr-ns
+               avenir w-100 ph3-l order-0-ns order-1-m order-1 tr-ns
             `}
           >
-            <strong><Link className="dim gold  tr-ns f2-ns f3">Regency Multifamily</Link></strong>
+            <strong><a className="link dim blue f3-ns f4" href="http://orig-design-iss-6028.pantheonsite.io/" target="_blank">ISS</a></strong>
           </p>
         </div>
       </div>
-
 
       {/* even */}
       <div className="item flex flex-row-ns flex-column flex-column-m items-center">
-        <img src={'/queue.png'} className="pr3-ns pl0-ns ph3 w-50-ns w-100 w-100-m order-0" />
+        <img src={'/queue.png'} className="pr3-ns pl0-ns ph3-ns w-50-ns w-100 w-100-m order-0" />
         <div className="w-50-ns w-100 w-100-m">
           <p
             style={{lineHeight: 1.9}}
             className={`
-               avenir w-100 ph5-l order-1
+               avenir w-100 ph3-l order-1
             `}
           >
-            <strong><Link className="dim gold  f2-ns f3">Queue</Link></strong>
+            <strong><span className="f3-ns f4">Queue</span><br /><span className="near-black fw4">Used by Watson's and Blackdog</span></strong>
           </p>
         </div>
       </div>
 
       {/* odd */}
       <div className="item flex flex-row-ns flex-column flex-column-m items-center">
-        <img src={'/curb.png'} className="pr3-ns pl0-ns ph3 w-50-ns w-100 w-100-m order-1-ns order-0-m order-0" />
+        <img src={'/curb.png'} className="pr3-ns pl0-ns ph3-ns w-50-ns w-100 w-100-m order-1-ns order-0-m order-0" />
         <div className="w-50-ns w-100 w-100-m">
           <p
             style={{lineHeight: 1.9}}
             className={`
-               avenir w-100 ph5-l order-0-ns order-1-m order-1 tr-ns
+               avenir w-100 ph3-l order-0-ns order-1-m order-1 tr-ns
             `}
           >
-            <strong><Link className="dim gold f2-ns f3">City of Urbana</Link></strong>
+            <strong><a className="link dim blue f3-ns f4" href="https://www.urbanaillinois.us/" target="_blank">City of Urbana</a></strong>
           </p>
         </div>
       </div>
-
 
       {/* even */}
       <div className="item flex flex-row-ns flex-column flex-column-m items-center">
-        <img src={'/ileas.png'} className="pr3-ns pl0-ns ph3 w-50-ns w-100 w-100-m order-0" />
+        <img src={'/ileas.png'} className="pr3-ns pl0-ns ph3-ns w-50-ns w-100 w-100-m order-0" />
         <div className="w-50-ns w-100 w-100-m">
           <p
             style={{lineHeight: 1.9}}
             className={`
-               avenir w-100 ph5-l order-1
+               avenir w-100 ph3-l order-1
             `}
           >
-            <strong><Link className="dim gold f2-ns f3 ">ILEAS</Link></strong>
+            <strong><a className="link dim blue f3-ns f4" href="https://www.ileas.org/" target="_blank">ILEAS</a></strong>
           </p>
         </div>
       </div>
 
       {/* odd */}
       <div className="item flex flex-row-ns flex-column flex-column-m items-center">
-        <img src={'/blackdog.png'} className="pr3-ns pl0-ns ph3 w-50-ns w-100 w-100-m order-1-ns order-0-m order-0" />
+        <img src={'/blackdog.png'} className="pr3-ns pl0-ns ph3-ns w-50-ns w-100 w-100-m order-1-ns order-0-m order-0" />
         <div className="w-50-ns w-100 w-100-m">
           <p
             style={{lineHeight: 1.9}}
             className={`
-               avenir w-100 ph5-l order-0-ns order-1-m order-1 tr-ns
+               avenir w-100 ph3-l order-0-ns order-1-m order-1 tr-ns
             `}
           >
-            <strong><Link className="dim gold f2-ns f3">Blackdog</Link></strong>
+            <strong><a className="link dim blue f3-ns f4" href="http://www.blackdogsmoke.com/" target="_blank">Blackdog</a></strong>
           </p>
         </div>
       </div>
 
-      <footer className="flex mt6 justify-center ttu">
-        <h3 className="avenir near-black f2-ns f3">Thanks</h3>
+      <footer className="flex mt6 justify-center">
+        <h3 className="avenir blue f3-ns f4 title tilt">Thanks</h3>
       </footer>
 
 

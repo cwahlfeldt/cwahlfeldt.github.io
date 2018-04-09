@@ -15,7 +15,8 @@ const TemplateWrapper = ({ children }) => (
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
       <script src="/dom.js"></script>
     </Helmet>
-    <section className={``}>
+    <div className="arrow-down f1 title tilt absolute right-0 bottom-0 ph5 dark-blue pb6 mb1">⇣</div>
+    <section className={`layout`}>
       { children() }
     </section>
   </main>

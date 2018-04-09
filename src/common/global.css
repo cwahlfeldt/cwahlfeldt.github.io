@@ -47,6 +47,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 60em) {
+  .arrow-down {
+    display: none;
+  }
+}
+
 .tilt-more {
   -webkit-transform: rotate(-9deg);
   transform: rotate(-6deg);

@@ -1,0 +1,87 @@
+:root {
+    --primary: #224193;
+    --secondary: #DF3C5F;
+    --tertiary: #3CDFB5;
+    --textColor: #0d1a3a;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-rendering: geometricPrecision;
+    color: var(--textColor);
+    line-height: 1.5;
+}
+
+ul {
+    padding-inline-start: 1rem;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+strong {
+    color: var(--secondary);
+}
+
+.resume {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.resume__address {
+    line-height: 1.25;
+}
+
+.resume__links {
+    padding-inline-start: 0;
+    list-style: none;
+    line-height: 1.25;
+    margin: 16px 0 0;
+}
+
+.resume__title {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 4rem;
+    font-family: "Arial Black", sans-serif;
+    line-height: 1;
+    letter-spacing: -0.2rem;
+    color: var(--secondary);
+}
+
+.resume__section {
+    margin: 2rem 0;
+}
+
+.resume__section-title {
+    position: relative;
+    color: var(--primary);
+    border-bottom: solid 2px var(--primary);
+    line-height: 1;
+    margin-bottom: 1.25rem;
+}
+
+.resume__sub-heading {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+    line-height: 1;
+    color: var(--secondary);
+    letter-spacing: -0.05rem;
+}
+
+.resume__experiences {
+    display: flex;
+    flex-direction: column;
+}
+.resume__experience {
+    margin-top: 1rem;
+}
+
+.resume__experience-items {
+    margin-top: 0;
+    margin-bottom: 0;
+}

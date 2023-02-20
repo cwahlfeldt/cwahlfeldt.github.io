@@ -94,7 +94,7 @@ strong {
   margin-top: 1.25rem;
   margin-bottom: 0;
   font-size: 1.1rem;
-  line-height: 1;
+  line-height: 1.25;
   letter-spacing: -0.05rem;
 }
 .resume__experience:nth-child(1) .resume__sub-heading {

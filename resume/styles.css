@@ -118,3 +118,7 @@ strong {
   opacity: 0.7;
   letter-spacing: -0.02rem;
 }
+
+.resume__example p {
+  margin-top: 8px;
+}

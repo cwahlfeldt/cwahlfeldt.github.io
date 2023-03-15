@@ -1,6 +1,9 @@
-const portfolio = data => /*html*/`
+const portfolio = (data) => /*html*/ `
   <div class="portfolio">
-    ${data.collections.portfolio.map(({ data }) => `<h2>${data.title}</h2>`).join('\n')}
+    ${data.collections.portfolio
+      .map(({ data }) => `<h2>${data.title}</h2>`)
+      .join("\n")}
   </div>
-`
-exports.render = portfolio
+`;
+
+exports.render = portfolio;

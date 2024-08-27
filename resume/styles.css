@@ -89,6 +89,7 @@ strong {
   margin-bottom: 1.25rem;
 }
 
+.resume__example-sub-heading,
 .resume__sub-heading {
   color: var(--secondary);
   margin-top: 1.25rem;
@@ -96,6 +97,11 @@ strong {
   font-size: 1.1rem;
   line-height: 1.25;
   letter-spacing: -0.05rem;
+}
+
+.resume__example-sub-heading {
+  color: var(--primary);
+  font-size: 1rem;
 }
 
 .resume__experience:nth-child(1) .resume__sub-heading {
@@ -122,4 +128,8 @@ strong {
 
 .resume__example p {
   margin-top: 4px;
+}
+
+.resume__example {
+  margin-left: 16px;
 }

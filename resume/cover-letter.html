@@ -18,21 +18,129 @@
             li {
                 margin-top: 4px;
             }
+
+            .edit-form {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #fff;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            .edit-form input {
+                display: block;
+                margin-bottom: 10px;
+                width: 100%;
+                padding: 8px;
+            }
+
+            .edit-form button {
+                padding: 8px 16px;
+                background: #007bff;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .edit-form button:hover {
+                background: #0056b3;
+            }
+
+            .placeholder {
+                background-color: lightblue;
+                padding: 0 4px;
+            }
+
+            /* Print styles */
+            @media print {
+                .edit-form {
+                    display: none;
+                }
+
+                .placeholder {
+                    background-color: transparent;
+                    padding: 0;
+                }
+
+                /* Ensure good margins for print */
+                .main {
+                    margin: 0.5in;
+                }
+
+                /* Remove any other potential screen-only styles */
+                body {
+                    background: white;
+                }
+
+                /* Ensure black text for printing */
+                * {
+                    color: black !important;
+                }
+
+                /* Force page breaks if needed */
+                .resume__section {
+                    page-break-inside: avoid;
+                }
+            }
         </style>
     </head>
 
     <body>
+        <form class="edit-form">
+            <input
+                type="text"
+                id="hiringManager"
+                placeholder="Hiring Manager Name/Title"
+            />
+            <input
+                type="text"
+                id="positionTitle"
+                placeholder="Position Title"
+            />
+            <input type="text" id="companyName" placeholder="Company Name" />
+            <input
+                type="text"
+                id="projectType1"
+                placeholder="Relevant Project Type 1"
+            />
+            <input
+                type="text"
+                id="projectType2"
+                placeholder="Relevant Project Type 2"
+            />
+            <input
+                type="text"
+                id="companyTrait"
+                placeholder="Company Trait/Interest"
+            />
+            <button type="submit">Update Letter</button>
+        </form>
+
         <main class="main">
             <div class="resume">
                 <div class="resume__section">
-                    <p>Dear {Hiring Manager Name/Title},</p>
                     <p>
-                        I'm writing to express my interest in the {Position
-                        Title} position with {Company Name}. With 10 years of
-                        experience building web applications and digital
-                        solutions, I bring a combination of technical expertise
-                        and collaborative problem-solving skills that I believe
-                        would be valuable to your team.
+                        Dear
+                        <span class="placeholder" data-key="hiringManager"
+                            >Hiring Manager</span
+                        >,
+                    </p>
+                    <p>
+                        I'm writing to express my interest in the
+                        <span class="placeholder" data-key="positionTitle"
+                            >Software Engineer</span
+                        >
+                        position with
+                        <span class="placeholder" data-key="companyName"
+                            >your company</span
+                        >. With 10 years of experience building web applications
+                        and digital solutions, I bring a combination of
+                        technical expertise and collaborative problem-solving
+                        skills that I believe would be valuable to your team.
                     </p>
                     <p>
                         Throughout my career, I've focused on developing
@@ -41,21 +149,36 @@
                         teams, implementing best practices, and working directly
                         with stakeholders to understand their needs. My
                         background includes successfully delivering projects
-                        ranging from {relevant project type 1} to {relevant
-                        project type 2} for various industries.
+                        ranging from
+                        <span class="placeholder" data-key="projectType1"
+                            >data visualization tools</span
+                        >
+                        to
+                        <span class="placeholder" data-key="projectType2"
+                            >content management systems</span
+                        >
+                        for various industries.
                     </p>
                     <p>
-                        What particularly interests me about {Company Name} is
-                        {specific company trait or project that interests you}.
-                        I enjoy adapting quickly to new tools and approaches,
+                        What particularly interests me about
+                        <span class="placeholder" data-key="companyName"
+                            >your company</span
+                        >
+                        is
+                        <span class="placeholder" data-key="companyTrait"
+                            >the opportunity to work on challenging problems
+                            while collaborating with a talented team</span
+                        >. I enjoy adapting quickly to new tools and approaches,
                         and I'm particularly skilled at bridging the gap between
                         technical requirements and business needs, ensuring that
                         solutions are both elegant and practical.
                     </p>
                     <p>
                         I look forward to discussing how my background and
-                        collaborative approach could contribute to {Company
-                        Name}'s continued success.
+                        collaborative approach could contribute to
+                        <span class="placeholder" data-key="companyName"
+                            >your company</span
+                        >'s continued success.
                     </p>
                     <p>Best regards,</p>
                     <p>
@@ -68,5 +191,54 @@
                 </div>
             </div>
         </main>
+
+        <script>
+            // Define the placeholder fields with defaults
+            const fields = {
+                hiringManager: "Hiring Manager",
+                positionTitle: "Software Engineer",
+                companyName: "your company",
+                projectType1: "data visualization tools",
+                projectType2: "content management systems",
+                companyTrait:
+                    "the opportunity to work on challenging problems while collaborating with a talented team",
+            };
+
+            // Load saved values from localStorage
+            function loadSavedValues() {
+                Object.keys(fields).forEach((key) => {
+                    const savedValue = localStorage.getItem(key);
+                    if (savedValue) {
+                        document.getElementById(key).value = savedValue;
+                        updatePlaceholders(key, savedValue);
+                    }
+                });
+            }
+
+            // Update placeholder text in the letter
+            function updatePlaceholders(key, value) {
+                const placeholders = document.querySelectorAll(
+                    `[data-key="${key}"]`,
+                );
+                placeholders.forEach((placeholder) => {
+                    placeholder.textContent = value || fields[key];
+                });
+                // Save to localStorage immediately
+                localStorage.setItem(key, value || fields[key]);
+            }
+
+            // Add input event listeners to all form fields
+            document.addEventListener("DOMContentLoaded", () => {
+                loadSavedValues();
+
+                // Add real-time update listeners to all inputs
+                Object.keys(fields).forEach((key) => {
+                    const input = document.getElementById(key);
+                    input.addEventListener("input", (e) => {
+                        updatePlaceholders(key, e.target.value);
+                    });
+                });
+            });
+        </script>
     </body>
 </html>

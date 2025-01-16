@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
-      - name: Set default branch
-        run: git config --global init.defaultBranch main
       - name: Build and deploy
         uses: shalzz/zola-deploy-action@v0.19.2
         env:

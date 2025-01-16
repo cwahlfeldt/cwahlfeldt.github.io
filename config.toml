@@ -10,7 +10,6 @@ taxonomies = [
 [markdown]
 highlight_code = true
 
-
 [search]
 index_format = "elasticlunr_json"
 

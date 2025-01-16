@@ -1,0 +1,30 @@
+base_url = "https://cwahlfeldt.github.io"
+compile_sass = true
+build_search_index = true
+theme = "terminimal"
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+highlight_code = true
+
+[search]
+index_format = "elasticlunr_json"
+
+[extra]
+codeblock = true
+default_language = "en"
+latex = true
+use_full_hack_font = true
+enable_search = true
+logo_text = "w@ffles"
+author = "Chris Wahlfeldt"
+page_titles = "combined"
+menu_items = [
+    { name = "work", url = "$BASE_URL/work" },
+    { name = "blog", url = "$BASE_URL/blog" },
+    { name = "resume", url = "$BASE_URL/resume", newtab = true },
+    { name = "github", url = "https://github.com/cwahlfeldt", newtab = true },
+]

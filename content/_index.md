@@ -5,7 +5,7 @@ paginate_path = "blog"
 sort_by = "date"
 +++
 
-# 👋 Howdy I'm Chris and I write software.
+# 👋 Hi I'm Chris and I write software.
 
 {{ image(src="https://avatars.githubusercontent.com/u/4119720", position="left", style="round") }}
 

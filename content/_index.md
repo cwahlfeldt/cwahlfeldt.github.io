@@ -20,5 +20,5 @@ I currently have a few open source projects in development:
 
 - [Undergang](https://github.com/cwahlfeldt/Undergang): Tactics roguelike game in C# and Godot
 - [llming](https://github.com/cwahlfeldt/llming): Chat gui in Rust using libcomsic
-- beatboi: Tiny rhythm game that syncs with any audio file
+- [beatboi](https://github.com/cwahlfeldt/beatboi): Tiny rhythm game that syncs with any audio file
 - make-midi: Small server that converts song files to midi

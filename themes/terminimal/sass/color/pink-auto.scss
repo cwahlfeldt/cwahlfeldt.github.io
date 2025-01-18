@@ -1,29 +1,28 @@
 :root {
-  @media (prefers-color-scheme: dark) {
-    --accent: rgb(224,64,192);
-    --accent-alpha-70: rgba(224,64,192);
-    --accent-alpha-20: rgba(224,64,192,.2);
+    @media (prefers-color-scheme: dark) {
+        --accent: rgb(245, 224, 220);
+        --accent-alpha-70: rgba(245, 224, 220);
+        --accent-alpha-20: rgba(245, 224, 220, 0.2);
 
-    --background: #101010;
-    --color: #f0f0f0;
-    --border-color: rgba(255,240,224,.125);
-    
-    div.logo {
-      color: black;
+        --background: #1e1e2e;
+        --color: #cdd6f4;
+        --border-color: rgb(180, 190, 254, 0.2);
+
+        div.logo {
+            color: #11111b;
+        }
     }
-  
-  }
-  @media (prefers-color-scheme: light) {
-    --accent: rgb(238,114,241);
-    --accent-alpha-70: rgba(238,114,241,.7);
-    --accent-alpha-20: rgba(238,114,241,.2);
-  
-    --background: white;
-    --color: #201030;
-    --border-color: rgba(0,0,16,.125);
-    
-    div.logo {
-      color: white;
+    @media (prefers-color-scheme: light) {
+        --accent: rgb(238, 114, 241);
+        --accent-alpha-70: rgba(238, 114, 241, 0.7);
+        --accent-alpha-20: rgba(238, 114, 241, 0.2);
+
+        --background: white;
+        --color: #201030;
+        --border-color: rgba(0, 0, 16, 0.125);
+
+        div.logo {
+            color: white;
+        }
     }
-  }
 }

@@ -7,9 +7,9 @@ taxonomies = [
     { name = "tags", feed = true },
 ]
 
-
 [markdown]
 highlight_code = true
+highlight_theme = "ayu-dark"
 
 [search]
 index_format = "elasticlunr_json"
@@ -23,6 +23,8 @@ enable_search = true
 logo_text = "w@ffles"
 author = "Chris Wahlfeldt"
 page_titles = "combined"
+accent_color = "orange-auto"
+background_color = "orange-auto"
 menu_items = [
     { name = "work", url = "$BASE_URL/work" },
     { name = "blog", url = "$BASE_URL/blog" },

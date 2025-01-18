@@ -1,13 +1,16 @@
 +++
 title = "Welcome to Terminimal Theme for Zola"
 date = 2019-02-04
-
+description = "This is a theme showcase post."
+render = false
 [taxonomies]
 tags = ["zola", "theme", "showcase"]
 +++
 
 Welcome to Terminimal! This is a theme showcase post.
+
 <!-- more -->
+
 Code block (using "boron" theme):
 
 ```python
@@ -31,18 +34,21 @@ Inline code: `print("Hello world!")`.
 
 Basic typography:
 
-*Italic text*.  **Bold text**. _**Italic bold**_. Link: [click me](#)
+_Italic text_. **Bold text**. _**Italic bold**_. Link: [click me](#)
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
+
 #### Header 4
 
 Quote:
 
 > "Theory is when you know everything but nothing works.
-Practice is when everything works but no one knows why.
-In our lab, theory and practice are combined: nothing works and no one knows why."
+> Practice is when everything works but no one knows why.
+> In our lab, theory and practice are combined: nothing works and no one knows why."
 
 Lists:
 
@@ -53,7 +59,6 @@ Lists:
     - And more nesting
   - GHIJ
 
-
 1. One
 2. Two
 3. Three
@@ -63,8 +68,6 @@ Horizontal line:
 ---
 
 This is where the post summary ends.
-
-
 
 The second part follows here.
 

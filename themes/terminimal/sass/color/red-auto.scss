@@ -1,29 +1,28 @@
 :root {
-  @media (prefers-color-scheme: dark) {
-    --accent: rgb(255,98,102);
-    --accent-alpha-70: rgba(255,98,102,.7);
-    --accent-alpha-20: rgba(255,98,102,.2);
+    @media (prefers-color-scheme: dark) {
+        --accent: rgb(243, 139, 168);
+        --accent-alpha-70: rgba(243, 139, 168, 0.7);
+        --accent-alpha-20: rgba(243, 139, 168, 0.2);
 
-    --background: #101010;
-    --color: #f0f0f0;
-    --border-color: rgba(255,240,224,.125);
-    
-    div.logo {
-      color: black;
+        --background: #1e1e2e;
+        --color: #cdd6f4;
+        --border-color: rgba(180, 190, 254, 0.125);
+
+        div.logo {
+            color: #11111b;
+        }
     }
-  
-  }
-  @media (prefers-color-scheme: light) {
-    --accent: rgb(240,48,64);
-    --accent-alpha-70: rgba(240,48,64,.7);
-    --accent-alpha-20: rgba(240,48,64,.2);
-  
-    --background: white;
-    --color: #201030;
-    --border-color: rgba(0,0,16,.125);
-    
-    div.logo {
-      color: white;
+    @media (prefers-color-scheme: light) {
+        --accent: rgb(240, 48, 64);
+        --accent-alpha-70: rgba(240, 48, 64, 0.7);
+        --accent-alpha-20: rgba(240, 48, 64, 0.2);
+
+        --background: white;
+        --color: #201030;
+        --border-color: rgba(0, 0, 16, 0.125);
+
+        div.logo {
+            color: white;
+        }
     }
-  }
 }

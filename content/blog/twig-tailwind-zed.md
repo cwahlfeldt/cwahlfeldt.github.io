@@ -1,5 +1,5 @@
 +++
-title = "Get Tailwind to work in Zed for Twig"
+title = "Tailwind + Twig and the Zed Editor"
 date = 2025-06-20
 
 [taxonomies]
@@ -41,4 +41,4 @@ Getting tailwind to work in Zed for Twig was a little weird. Found this <a href=
     }
   }
 }
-  ```
+```

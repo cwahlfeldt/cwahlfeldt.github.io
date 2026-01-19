@@ -1,5 +1,5 @@
 +++
-title = "Bulk Post Importer, My First WP Plugin"
+title = "Bulk Post Importer, My First Public WP Plugin"
 date = 2025-07-18
 
 [taxonomies]

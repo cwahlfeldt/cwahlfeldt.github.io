@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chris Wahlfeldt - Resume</title>
+    <link rel="stylesheet" href="/resume/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #224193;
+        --textColor: #0d1a3a;
+      }
+
+      body {
+        font-family: "Sora", sans-serif;
+        color: var(--textColor);
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        font-size: 0.9rem;
+        print-color-adjust: exact;
+      }
+
+      .reddit-sans {
+        font-family: "Reddit Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+
+      .sora {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+
+      .resume {
+        max-width: 770px;
+        margin: 0 auto;
+        padding: 1.5rem;
+      }
+
+      header {
+        /* text-align: center; */
+        margin-bottom: 1rem;
+        font-family: "Reddit Sans", sans-serif;
+        font-size: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin: 0;
+        color: var(--primary);
+        font-family: "Reddit Sans", sans-serif;
+        font-weight: 800;
+      }
+
+      .contact {
+        font-size: 0.9rem;
+        color: #444;
+      }
+
+      .contact a {
+        color: var(--primary);
+        text-decoration: none;
+        margin: 0 0.4rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+        color: var(--primary);
+        padding-bottom: 0.25rem;
+        border-bottom: 2px solid var(--primary);
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        font-family: "Reddit Sans", sans-serif;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 1rem;
+      }
+
+      li {
+        margin-bottom: 4px;
+      }
+
+      .job {
+        margin-bottom: 1rem;
+      }
+
+      .job-header {
+        display: flex;
+        font-family: "Reddit Sans", sans-serif;
+        margin-bottom: 0.4rem;
+        line-height: 1;
+        align-items: center;
+        gap: 1rem;
+        font-weight: bold;
+      }
+
+      .job-title {
+        color: var(--primary);
+        font-family: "Reddit Sans", sans-serif;
+      }
+
+      .job-title + span {
+        font-family: "Sora", sans-serif;
+        font-size: 0.75rem;
+      }
+
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1rem;
+        font-size: 0.9rem;
+      }
+
+      .skills-list span {
+        background-color: #e8eaee;
+        display: inline-block;
+        padding: 2px 6px;
+        border-radius: 4px;
+        print-color-adjust: exact;
+      }
+
+      .education {
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="resume">
+      <header>
+        <h1>Chris Wahlfeldt</h1>
+        <div class="contact">
+          Champaign, IL •
+          <a href="tel:12179798028">(217) 979-8028</a> •
+          <a href="mailto:chriswahlfeldt@gmail.com">chriswahlfeldt@gmail.com</a>
+          <!-- •
+          <a href="https://github.com/cwahlfeldt" target="_blank">GitHub</a> -->
+        </div>
+      </header>
+
+      <section>
+        <h2>Summary</h2>
+        <p>
+          Senior Developer with over 11 years of experience building websites
+          and custom applications, primarily in an agency setting. I work a lot
+          with WordPress, building themes, plugins, and custom blocks, and bring a
+          broad mix of front-end and back-end experience. I focus on practical,
+          maintainable solutions that perform well and feel good to use.
+        </p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <span>WordPress</span><span>PHP</span><span>JavaScript</span
+          ><span>HTML</span><span>CSS</span><span>Sass</span><span>SQL</span
+          ><span>Node.js</span><span>TypeScript</span><span>React</span
+          ><span>React Native</span><span>Git</span><span>CI/CD</span
+          ><span>Linux</span><span>Docker</span><span>AWS</span
+          ><span>Next.js</span><span>Gatsby.js</span><span>Drupal</span
+          ><span>Twig</span><span>Tailwind</span><span>GraphQL</span
+          ><span>C#</span><span>.NET</span><span>Rust</span><span>Godot</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Senior Developer – Surface 51</span>
+            <span>February 2025 – Present</span>
+          </div>
+          <ul>
+            <li>
+              Built WordPress content platforms for various companies,
+              including Molecule Maker Lab, Burke Lab, Birkey's Equipment
+              Store, and others.
+            </li>
+            <li>
+              Led front-end architecture decisions and implemented modern
+              development practices.
+            </li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Senior Developer – Southleft</span>
+            <span>May 2023 – Aug 2024</span>
+          </div>
+          <ul>
+            <li>
+              Built web analytics application using Next.js and Amplitude
+              Analytics with real-time data visualization.
+            </li>
+            <li>
+              Created Gatsby.js content platform for AI translation company
+              Smartling with Contentful integration.
+            </li>
+            <li>
+              Developed new features to improve Outside Magazine and affiliated
+              publications in WordPress.
+            </li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Software Engineer – Pixo</span>
+            <span>May 2020 – Apr 2023</span>
+          </div>
+          <ul>
+            <li>
+              Led team developing real-time data visualization app for John
+              Deere research using React Native and MQTT streams.
+            </li>
+            <li>
+              Built livestock inventory management system with C#, React, and
+              Material Design.
+            </li>
+            <li>
+              Developed WordPress multisite for University of Illinois College
+              of Fine and Applied Arts with custom themes.
+            </li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Developer – McKenzie Wagner</span>
+            <span>Apr 2016 – May 2020</span>
+          </div>
+          <ul>
+            <li>
+              Led team on large WordPress platform for Cobalt Digital with
+              custom modules and performance optimization.
+            </li>
+            <li>
+              Created Gatsby.js site for major equipment rental service with
+              headless WordPress CMS integration.
+            </li>
+            <li>
+              Developed Bell Racing e-commerce WordPress site with custom
+              product management.
+            </li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Web Developer – Vertex Solutions</span>
+            <span>Oct 2014 – Mar 2016</span>
+          </div>
+          <ul>
+            <li>
+              Created WordPress platform for Illinois Law Enforcement Alarm
+              System with custom event management.
+            </li>
+            <li>Built and maintained WordPress, Drupal, and PHP websites.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- <section>
+        <h2>Education</h2>
+        <div class="education">
+          Parkland College – A.A.S. in Digital Media, 2014 Specialization: 3D
+          Animation & Game Development
+        </div>
+      </section> -->
+    </main>
+  </body>
+</html>

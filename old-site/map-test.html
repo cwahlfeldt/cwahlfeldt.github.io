@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Load data from an external GeoJSON file</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/random-points-generator"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        .container {
+            position: relative;
+            height: 800px;
+        }
+        .flex {
+            height: 30px;
+            padding: 24px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .btn {color: white;}
+        .btn--clear {color: black;}
+        .btn--red {background-color: red;}
+        .btn--aqua {background-color: aqua; color: black;}
+        .btn--green {background-color: green;}
+        .btn--purple {background-color: purple;}
+        .btn--blue {background-color: blue;}
+    </style>
+</head>
+<body>
+    <div class="container flex">
+        <button class="btn btn--clear" data-color="clear">Clear filters</button>
+        <button class="btn btn--red" data-color="red">less than 25</button>
+        <button class="btn btn--aqua" data-color="aqua">greater than 25 & less than 50</button>
+        <button class="btn btn--green" data-color="green">greater than 50 & less than 75</button>
+        <button class="btn btn--purple" data-color="purple">greater than 75 & less than 100</button>
+        <button class="btn btn--blue" data-color="blue">equal to 100</button>
+    </div>
+    <div class="container">
+        <div id="map"></div>
+    </div>
+ 
+    <script>
+        function getRandomInt(max) {
+          return Math.floor(Math.random() * max);
+        }
+
+        const btns = document.querySelectorAll('.btn');
+
+        const fc = geotools.random(10000, {
+            bbox: [
+              -88.47167730331421,
+              39.919430040382046,
+              -88.46262216567993,
+              39.92285299204739
+            ]
+        });
+        const copyFc = {...fc}
+        const generatedData = fc.features.map((point) => {
+            const rando = getRandomInt(101);
+            return {
+                ...point,
+                properties: {
+                    color: rando >= 25 && rando < 50 ? 'aqua' : rando >= 50 && rando < 75 ? 'green' : rando >= 75 && rando < 100 ? 'purple' : rando < 25 ? 'red' : 'blue',
+                }
+            }
+        })
+        copyFc.features = generatedData
+        mapboxgl.accessToken = '';
+        const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/satellite-v9', // style URL
+            zoom: 16.5, // starting zoom
+            center: [-88.4672,39.9210] // starting center
+        });
+             
+        map.on('load', () => {
+            map.addSource('farmland', {
+                type: 'geojson',
+                data: copyFc
+            });
+
+            map.addLayer({
+                'id': 'farmland-layer',
+                'type': 'circle',
+                'source': 'farmland',
+                // <!-- 'filter': ['==', ['get', 'color'], ['red', 'aqua', 'blue', 'green', 'purple']], -->
+                'paint': {
+                    'circle-radius': 4,
+                    'circle-stroke-width': 2,
+                    'circle-color': ['get', 'color'],
+                    'circle-stroke-color': 'transparent',
+                }
+            });
+        });
+
+        btns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const color = e.target.dataset.color;
+                map.setFilter('farmland-layer', color === 'clear' ? null : ['==', ['get', 'color'], color])
+            })
+        })
+    </script>
+ 
+</body>
+</html>
